@@ -7,19 +7,9 @@
 - Volunteers
 - Post-event feedback survey: 
 
-
 ## Agenda for 06-Jun-2020
 - 12pm - 4pm EST 
 - Online
-
-## Code of Conduct
-**WiMLDS is dedicated to providing a harassment-free experience for everyone.** We do not tolerate harassment of participants in any form. All communication should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery is not appropriate.
-
-**Be kind to others.** Do not insult or put down others. Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate.
-
-**Thank you for helping make this a welcoming, friendly community for all.**  Please read the full [**Code of Conduct**](https://github.com/WiMLDS/starter-kit/wiki/Code-of-conduct) before participating.  
-
-CoC summary is adopted from [NumFOCUS](https://numfocus.org/code-of-conduct).
 
 ## Preparation
 
