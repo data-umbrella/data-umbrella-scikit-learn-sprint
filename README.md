@@ -1,7 +1,7 @@
 # Data Umbrella: Jun 2020 scikit-learn sprint
 
-## Key Links for Sprint
-See the Sprint [Website](https://sites.google.com/view/nyc-2020-scikit-sprint/home) for:  
+## Key Links
+See the [Sprint Website](https://sites.google.com/view/nyc-2020-scikit-sprint/home) for:  
 - Prerequisites
 - Code of Conduct
 - Organizers
