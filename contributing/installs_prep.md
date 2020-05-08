@@ -25,7 +25,7 @@ Jupyter Notebook is included in the Anaconda installation.  Review Jupyter Noteb
 - Save your user ID and password somewhere you can easily find it
 
 ## Join Gitter
-Join [wimlds gitter](gitter.im/scikit-learn/wimlds) using your GitHub ID.
+Join [gitter](gitter.im/scikit-learn/sprint) using your GitHub ID.
   
 ## Choose a Graphical Editor
 - Try Visual Studio Code
