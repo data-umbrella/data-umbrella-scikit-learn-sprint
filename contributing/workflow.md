@@ -1,7 +1,7 @@
 # Crash Course in Contributing to Scikit-learn:  Workflow
 
 PR = Pull Request  
-**Important Note:**  Please include **(#wimlds)** in your PR commit message so we can track them. 
+**Important Note:**  Please include **(#DataUmbrella)** in your PR commit message so we can track them. 
 
 ---
 
@@ -96,11 +96,11 @@ git checkout -b <feature_branch>
 ```
 
 #### Commit changes to branch
-Please include **(#wimlds)** in your PR so we can track them.  
+Please include **(#DataUmbrella)** in your PR so we can track them.  
  
 ```bash
 git add <file_name>
-git commit -m 'description for fix (#wimlds)'
+git commit -m 'description for fix'
 ```
 
 ---
