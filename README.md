@@ -9,10 +9,10 @@ See the [Sprint Website](https://sites.google.com/view/nyc-2020-scikit-sprint/ho
 ## Post-event
 - Post-event [feedback survey] ()
 
-## Agenda for 06-Jun-2020
-- 12pm - 4pm EST (event is online)
+## AGENDA
+- Saturday, 06-Jun-2020; 12pm - 4pm EST (event is online)
 
-## Preparation
+## PREPARATION
 
 ### 1.  GitHub Account
 - Open an account on [GitHub](https://github.com/)
@@ -40,8 +40,8 @@ Join the scikit-learn Gitter community
 ### 5.  Curated List of Issues
 - [issues to do list](https://github.com/data-umbrella/2020-sklearn-sprint/projects/1)
 
-### Crash Course in Contributing ** TO BE UPDATED **
-- [slides](scikit-learn-sprint-instructions.pdf)
+## SPRINT DAY
+- [Crash Course in Contributing](scikit-learn-sprint-instructions.pdf) ** slides TO BE UPDATED **
 
 # Twitter
 Please take photos and tweet about the event.
