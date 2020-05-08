@@ -40,6 +40,8 @@ Join the scikit-learn Gitter community
 ### 5.  Curated List of Issues
 - [issues to do list](https://github.com/data-umbrella/2020-sklearn-sprint/projects/1)
 
+### Crash Course in Contributing ** TO BE UPDATED **
+- [slides](scikit-learn-sprint-instructions.pdf)
 
 # Twitter
 Please take photos and tweet about the event.
