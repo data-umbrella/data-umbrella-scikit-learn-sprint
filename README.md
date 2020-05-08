@@ -43,7 +43,7 @@ Join the scikit-learn Gitter community
 ## SPRINT DAY
 - [Crash Course in Contributing](scikit-learn-sprint-instructions.pdf) ** slides TO BE UPDATED **
 
-# Twitter
+## Twitter
 Please take photos and tweet about the event.
 - #ScikitLearnSprint
 - #opensource
