@@ -2,16 +2,15 @@
 
 ## Key Links
 See the [Sprint Website](https://sites.google.com/view/nyc-2020-scikit-sprint/home) for:  
-- Prerequisites
-- Code of Conduct
-- Organizers
+- [Prerequisites](https://sites.google.com/view/nyc-2020-scikit-sprint/home)
+- [Code of Conduct](https://www.dataumbrella.org/about/code-of-conduct)
+- [Organizers](https://sites.google.com/view/nyc-2020-scikit-sprint/organizers)
 
 ## Post-event
-- Post-event feedback survey: 
+- Post-event [feedback survey] ()
 
 ## Agenda for 06-Jun-2020
-- 12pm - 4pm EST 
-- Online
+- 12pm - 4pm EST (event is online)
 
 ## Preparation
 
