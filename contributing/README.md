@@ -1,6 +1,9 @@
-# Contributing Resources
+## Contributing Resources
 - [Software Requirements](installs_prep.md) (installation: Anaconda and more)
 - [Contributing Workflow](workflow.md)
+- [Beginner Resources](https://github.com/scikit-learn-inria-fondation/ParisSprintJanuary2020/blob/master/workshop.md) (from Paris 2020 sprint)
+
+## Testing
 - `pytest`: example of [output](pytest_sklearn_output.md)
 - `flake8`: examples of [output](flake8.md)
 
