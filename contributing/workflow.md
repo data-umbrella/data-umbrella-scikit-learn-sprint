@@ -39,6 +39,14 @@ git clone https://github.com/reshamas/scikit-learn.git
 cd scikit-learn
 ```
 
+#### Build from source
+```bash
+pip install -e .
+```
+Note:  this will overwrite existing installations
+Reference:  ["Editable" Installs](https://pip.pypa.io/en/stable/reference/pip_install/#examples)
+
+
 #### Add `upstream` remote
 ```
 git remote add upstream https://github.com/scikit-learn/scikit-learn.git
@@ -64,13 +72,6 @@ git pull upstream master
 git fetch https://github.com/theirusername/reponame.git theirbranch:ourbranch
 ```
 
-
-#### Build from source
-```bash
-pip install -v -e .
-```
-Note:  this will overwrite existing installations
-Reference:  ["Editable" Installs](https://pip.pypa.io/en/stable/reference/pip_install/#examples)
 
 ---
 
@@ -225,5 +226,17 @@ This is what a **merged** icon looks like:
 <kbd>
 <img src="../images/merged.png" border="5" width="70%" height="70%"/>
 </kbd>
+
+## Returning to work: reminder to sync repo before beginning work
+```bash
+git pull upstream master
+git push origin master
+```
+Switch to working branch  
+``` 
+git checkout feature_branch
+git pull upstream master
+git push origin feature_branch
+```
 
  
