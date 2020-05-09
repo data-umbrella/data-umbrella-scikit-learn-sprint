@@ -11,6 +11,12 @@ PR = Pull Request
 ```bash
 conda create -n sklearndev numpy scipy matplotlib pytest sphinx cython ipykernel
 ```
+
+#### To vew a list of your virtual environments
+```
+conda info --envs
+```
+
 #### Activate virtual environment:  
 ```bash
 source activate sklearndev
