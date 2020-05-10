@@ -1,4 +1,4 @@
-# Data Umbrella: Jun 2020 scikit-learn sprint
+# Data Umbrella: scikit-learn sprint
 
 ## Key Links
 See the [Sprint Website](https://sites.google.com/view/nyc-2020-scikit-sprint/home) for:  
