@@ -12,6 +12,12 @@ PR = Pull Request
 conda create -n sklearndev numpy scipy matplotlib pytest sphinx cython ipykernel
 ```
 
+#### Helpful virtual environment commands to know 
+- To view a **list** of your virtual environments:  `conda env list`
+- To **activate** a virtual environment: `conda activate sklearndev`
+- To **deactivate** a virtual environment:  `conda deactivate`
+- To **remove** a virtual environment:  `conda env remove --name myenv`
+
 #### Activate virtual environment:  
 ```bash
 source activate sklearndev
@@ -240,10 +246,6 @@ git pull upstream master
 git push origin feature_branch
 ```
 
-## Helpful virtual environment commands to know 
-- To vew a list of your virtual environments:  `conda info --envs`
-- To **activate** a virtual environment: `conda activate sklearndev`
-- To **deactivate** a virtual environment:  `conda deactivate`
-- To **remove** a virtual environment:  `conda env remove --name myenv`
+
 
  
