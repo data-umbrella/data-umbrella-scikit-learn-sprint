@@ -41,7 +41,7 @@ Join the scikit-learn Gitter community
 - [issues to do list](https://github.com/data-umbrella/2020-sklearn-sprint/projects/1)
 
 ## SPRINT DAY
-- [Crash Course in Contributing](scikit-learn-sprint-instructions.pdf) ** slides TO BE UPDATED **
+- [Crash Course in Contributing](data-umbrella-sprint-intro.pdf) (pdf slides)
 
 ## Twitter
 Please take photos and tweet about the event.
