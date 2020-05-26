@@ -14,9 +14,11 @@
 - Transcriber: [Reshama Shaikh](https://twitter.com/reshamas)
 
 ## Key Links
+- PDF slides: [Crash Course in Contributing to Open Source Projects](https://github.com/data-umbrella/2020-sklearn-sprint/blob/master/data-umbrella-sprint-intro.pdf)
 - Data Umbrella [Discord](https://discord.gg/mEzEbYT)
 - Gitter: [scikit-learn](https://gitter.im/scikit-learn)
 - **[Contributing Workflow Commands](contributing/workflow.md)** (environment set-up, repo, submitting PR)
+- [Scikit-learn Contributing Documentation](http://scikit-learn.org/stable/developers/contributing.html)
 
 ## Video
 <a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="images/sklearn_video1.png" width="90%" /></a>
