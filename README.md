@@ -1,5 +1,3 @@
-
-
 <p float="left">
   <img src="images/full logo-transparent copy.png" height="40%" width="40%" />
 </p>
