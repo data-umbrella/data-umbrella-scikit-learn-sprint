@@ -52,7 +52,7 @@ Please take photos and tweet about the event.
 
 
 ## Resource
-- [Beginner Resources](https://github.com/scikit-learn-inria-fondation/ParisSprintJanuary2020/blob/master/workshop.md) 
+- [Sprint Beginner Resources](https://github.com/scikit-learn-inria-fondation/ParisSprintJanuary2020/blob/master/workshop.md) 
   - installing Git
   - Conda installation for Python Dev Environment
   - Visual Studio Code
