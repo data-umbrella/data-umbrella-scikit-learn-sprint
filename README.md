@@ -51,3 +51,11 @@ Please take photos and tweet about the event.
 - Twitter handles of [organizers](https://sites.google.com/view/nyc-2020-scikit-sprint/organizers)
 
 
+## Resource
+- [Beginner Resources](https://github.com/scikit-learn-inria-fondation/ParisSprintJanuary2020/blob/master/workshop.md) 
+  - installing Git
+  - Conda installation for Python Dev Environment
+  - Visual Studio Code
+  - Run a scikit-learn example
+  - Write a new test of your own
+
