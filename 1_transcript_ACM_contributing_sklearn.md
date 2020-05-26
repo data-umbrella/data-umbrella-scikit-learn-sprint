@@ -19,7 +19,9 @@
 - **[Contributing Workflow Commands](contributing/workflow.md)** (environment set-up, repo, submitting PR)
 
 ## Video
-<a href="https://youtu.be/5OL8XoMMOfA" ><img src="images/sklearn_video1.png" width="90%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="images/sklearn_video1.png" width="90%" /></a>
+
+---
 
 ### Slide 1: Intro (0:00)
 <a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="images/sklearn_video1.png" width="50%" /></a>
