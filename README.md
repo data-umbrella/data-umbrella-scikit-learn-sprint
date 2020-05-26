@@ -26,7 +26,6 @@ See the [Sprint Website](https://sites.google.com/view/nyc-2020-scikit-sprint/ho
 - [Git should be installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - Some familiarity with Git / GitHub 
 - Prior to event, review some [Git resources](https://github.com/reshamas/git-intro-workshop/blob/master/extra_resources/resource_git_tutorials.md) 
-- We will go over pull requests at beginning of event
 
 ### 2.  Join [Gitter](https://gitter.im)
 Gitter is an open source instant messaging and chat room system for developers and users of GitHub repositories.  You can use your GitHub ID to sign in. 
