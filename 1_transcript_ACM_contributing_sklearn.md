@@ -85,7 +85,6 @@ remote add upstream` and then the URL after my repository, github.com slash scik
 ### Slide 8: Build and run tests (7:25)
 <a href="https://youtu.be/5OL8XoMMOfA?t=443" target="_blank"><img  src="images/sklearn_s8.png" width="50%" /></a>
 
-
 Alright, so now you have your local copy of the scikit-learn development version and now we want to install it. So we want to build it and install it.  And the easiest way is to go to the folder that you just cloned and do pip install - e dot: `pip install -e .`  This does an
 installation which does the building and we'll add it to your Python path.  The - e makes it an edible installation, editable (not edible),  editable installation. Which means that if you change files in this folder, it will be automatically reflected in your installation.  This will overwrite existing installations, so make sure you don't have an installation of scikit-learn. So make sure you do `conda uninstall scikit-learn` in this environment if you accidentally installed it earlier.  
 
@@ -139,7 +138,6 @@ test that tests the feature.  We won't merge any pull requests without a test.  
 ### Slide 14: What's Next? (16:15)
 <a href="https://youtu.be/5OL8XoMMOfA?t=975" target="_blank"><img  src="images/sklearn_s14.png" width="50%" /></a>
 
-
 All right so let's say you edit your tests.  All the tests pass.  Everything is green. What's next?  Then you will get reviewers from the
 core developers probably.  It might take some time, particularly during the sprint, because people are quite busy. Usually reviewers will have comments.  It's very unusual that someone will say "oh your pull request is great, we can just merge it." The pull request reviews is a really, really important part of open source, and it's the main way that new features are discussed. So don't be disappointed if someone says "well I actually think we should do it this way or that way." This is really the main way the developers communicate. And so it's not like they're rejecting your pull requests.  Basically, every pull requests undergoes changes.
 
@@ -159,7 +157,6 @@ maybe a good first issue.  "Good first issue" issues are good if you haven't con
 
 There are also things that are marked easy or sprint.  So easy are those that are easy but maybe not great for first contributors or sometimes they may have both tags.  
 
-#### (20:40)
 So there's also other ways to contribute then finding an issue and working on them.  You can also just fix something in the docs that's unclear.  You don't necessarily need to open issue for this, so just like improve the documentation if there's something you don't like about it.  Or just open issues. Open issues about unclear docs, about features that you find weird, about examples that are not helpful, about bugs you run into.  
 
 So a sprint can be a really great opportunity to open issues about things that you don't like about the projects, problems that you run into. And having this feedback is really, really important to improve the project.  
@@ -170,6 +167,7 @@ say "are you still working on this?" or in some case it might be fine just start
 In this and any other communications on the issue tracker of course always be nice, be courteous, be productive and constructive in your feedback.  
 
 ### Slide 16:  Reviewing (22:22)
+<a href="https://youtu.be/5OL8XoMMOfA?t=1342" target="_blank"><img  src="images/sklearn_s16.png" width="50%" /></a>
 
 You can also start reviewing.  In particular reviewing pull requests or issues opened by other people at the sprint might be
 useful because they're usually at a more introductory level.  But you can try to review any pull requests and issues. Reviewing issues might be a little bit more straightforward. So if you want to check an issue one may seek:  
@@ -186,6 +184,7 @@ to provide them.  If something's not clear about the issue, also feel free to cl
 You can also review pull requests make those for documentation on whether they're clear. Is the language clear? You can also review code changes. Either on like do they have teststs added? Do they adhere to the styles? Does continuous integration pass? And then maybe did they mention the issue they are addressing in their description?  So all of the things that I said you should do for your pull request, you could check, are the other people in the sprint or generally anyone that has a pull request.  Are they adhering to these standards? If not, you can ask them to do it.  Of course, always be nice and polite.  You can also try to review code changes to see are they actually addressing the thing that they want to address? And are they addressing it in a way that you think is good? This might be a little bit more tricky but you should definitely give it a go.  And if something is unclear just ask for clarification. And also don't be hesitant to provide feedback.  Just always be like polite in saying, like oh maybe I would have done it this way, is there reason you do it this way, and not say don't say like oh this is a bad way to do this you, should do it this way.  There's probably a reason someone did it the way it did so just always be nice and just or the ask for clarification instead of assuming.
 
 ### Slide 17:  Workflow Reminders (25:25)
+<a href="https://youtu.be/5OL8XoMMOfA?t=1524" target="_blank"><img  src="images/sklearn_s17.png" width="50%" /></a>
 
 A couple of things on the workflow during the sprint. So you're highly encouraged to do pair programming. I find it's much more fun and you can get much more done during pair programming.  This time around it will be remote pair programming using Discord.  It's maybe not entirely as good as doing in-person pair programming, but I think it's still quite a lot of fun.  If you're doing a pull request or an issue just @ mention the other person that's working on it so they all get a ping in their emails. Make sure to follow up on your work. So expect there's a lot of back-and-forth and discussion and so make sure that you catch any reviews you get on your pull requests. And really it's important to ask the project for you to really get your contributions merged and so really try to get a follow up during the sprint but also ideally follow up after the sprint. Really what we love the most is finding new contributors that keep coming back to the project and keep coming back to contributing.  It will be more easy and more satisfying to contribute to the project the more you get involved and the more familiar you have become. 
 
