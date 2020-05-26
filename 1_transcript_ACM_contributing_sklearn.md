@@ -193,6 +193,8 @@ You'll be able to do more and more interesting things.  You'll be able to add co
 So we will probably try to do some follow-up events for the sprints. Otherwise feel free to follow up on the issue tracker. The issue tracker is really the main way the developers communicate.  There's also a monthly community, monthly developer call that you can join if you want. Join the email list or just talk to us on gitter.  And so yeah make sure you know which email address you use on your GitHub account and check that email address for notifications or check the notifications directly on GitHub.
 
 ### Slide 18: Workflow Reminders (27:44)
+<a href="https://youtu.be/5OL8XoMMOfA?t=1666" target="_blank"><img  src="images/sklearn_s18.png" width="50%" /></a>
+
 
 So I said so there might be some things todo you can't finish up during the sprint. It's really great if you can follow up and get your pull requests merged. So the pull request and GitHub is really the best way to communicate and this is a public discussion where all of the core developers or really anyone else on the internet can answer question and help.  And as I said before we will using a discord during the sprint but the core developers will probably not be around on the Discord most of the time after the sprint. So a good idea is to go on the scikit-learn sprint channel or just the general scikit-learn channel or just talk in the issues and pull requests. 
 
@@ -200,10 +202,12 @@ So really we're emphasizing that it's a good idea to start with something really
 
 
 ### Slide 19: Final Words (29:00)
+<a href="https://youtu.be/5OL8XoMMOfA?t=1750" target="_blank"><img  src="images/sklearn_s19.png" width="50%" /></a>
 
 Yeah so if you want to add a  major features to scikit-learn, that's probably not something you can do in a day.  Adding a new model to scikit-learn is usually something that take many months and it's not something you should try to attempt at the beginning. So really start with something simple and then maybe if you got your first first two pull requests and you can work at adding like a smaller feature but don't count on adding a big feature anytime soon.  That is because scikit-learn is already quite a mature library and so it's moving quite slowly.  And so it's hard to add anything big or make any big new changes. Also there might be a lot of interesting issues that are not appropriately tagged.  So if you're interested in particular topic you can just search the topic on the issue tracker or on the pull requests and see if there's something interesting happening there.
 
 ### Slide 20: Thank you (29:59)
+<a href="https://youtu.be/5OL8XoMMOfA?t=1797" target="_blank"><img  src="images/sklearn_s20.png" width="50%" /></a>
 
 So with this I want to say enjoy the sprint and thank you all for your help and I hope you have a lot of fun, you'll learn a lot working together with your sprint partner. And I hope you'll come back for more sprints or you just keep engaging on the issue tracker. All right so, thank you so much!
 
