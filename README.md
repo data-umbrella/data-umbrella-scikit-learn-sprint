@@ -1,9 +1,10 @@
+
+
 <p float="left">
   <img src="images/full logo-transparent copy.png" height="40%" width="40%" />
-<img  width="100" />
+</p>
+<p float="left">
     <img src="images/1280px-Scikit_learn_logo_small.svg.png" width="15%" height="15%" /> 
-
-
 </p>
 
 # Data Umbrella: scikit-learn sprint
