@@ -65,10 +65,13 @@ conda install -c conda-forge sphinx-gallery
 ```
 Then, if you want to work on documentation, you also need to install the sphinx-gallery package.  This is not on main conda so you need to install it from the conda-forge channel using `conda install -c conda-forge sphinx-gallery`.
 
+All right, so now you have your python environment setup.  You have a separate environment for scikit-learn development. Now you're going to get the newest development version of scikit-learn.  To do this, first you go to the main scikit-learn repository github.com slash scikit-learn, slash scikit-learn:  [github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) and you'll create a fork. The fork is basically your own personal copy of the repository on GitHub. 
+
+
 ### Slide 7: Clone the Fork (5:31)
 <a href="https://youtu.be/5OL8XoMMOfA?t=298" target="_blank"><img  src="images/sklearn_s7.png" width="50%" /></a>
 
-All right, so now you have your python environment setup.  You have a separate environment for scikit-learn development. Now you're going to get the newest development version of scikit-learn.  To do this, first you go to the main scikit-learn repository github.com slash scikit-learn, slash scikit-learn:  [github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) and you'll create a fork. The fork is basically your own personal copy of the repository on GitHub.  You can do this by clicking the fork button on the top right here.  This will create your personal fork and will take you there. So you can see here top left this is my fork, amueller slash scikit-learn. Amueller is my GitHub handle, so you'll have your GitHub handle there. And you can see it's a fork of scikit-learn slash scikit-learn, the main repository.  
+ You can do this by clicking the fork button on the top right here.  This will create your personal fork and will take you there. So you can see here top left this is my fork, amueller slash scikit-learn. Amueller is my GitHub handle, so you'll have your GitHub handle there. And you can see it's a fork of scikit-learn slash scikit-learn, the main repository.  
 
 #### (5:50)
 So this is now your own private copy on GitHub. So this copy, you have write access to and you can make changes on this.  From there, you'll get your own local copy on your own machine by cloning it. And so there's this green button clone or download that you can see here.  You click on this and you can copy the link and do `git clone` with this URL. And this will download a copy to your local machine, your laptop, or PC. When you do this, one thing that's important is that you use HTTPS.  So you click here and you should use HTTPS and you'll get an HTTP address.  I'm using SSH which is easier if you have SSH keys set up up on your local machine.  If you don't
