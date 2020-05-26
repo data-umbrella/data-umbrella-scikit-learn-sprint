@@ -22,16 +22,19 @@
 <a href="https://youtu.be/5OL8XoMMOfA" target="_blank"><img src="images/sklearn_video1.png" width="90%" /></a>
 
 ### Slide 1 (0:00)
+<a href="https://youtu.be/5OL8XoMMOfA" target="_blank"><img src="images/sklearn_video1.png" width="33%" /></a>
+
+
 Hey everybody, so this is an instruction video on how to contribute to source projects, in particular to scikit-learn.  I'm Andreas Mueller, one of the core developers of the scikit-learn project.  Thanks for Reshama and Data Umbrella for organizing this sprint.  So I really want to give you just a very brief overview of the technology behind contributing to open source and the steps of getting your first contributions in.  
 
 ### Slide 2: Instructions for Sklearn (0:40) 
-<a href="https://youtu.be/5OL8XoMMOfA?t=196" target="_blank"><img  src="images/sklearn_video2.png" width="33%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=40" target="_blank"><img  src="images/sklearn_video2.png" width="33%" /></a>
 
 
 So first off, a great way to communicate with the developers is the Gitter channel.  You can find that at [gitter.im/scikit-learn](https://gitter.im/scikit-learn). For the sprint, there is a channel called "sprint":  [gitter.im/scikit-learn/sprint](https://gitter.im/scikit-learn/sprint).  And there is also a scikit-learn channel that's just a general channel: [gitter.im/scikit-learn/scikit-learn](https://gitter.im/scikit-learn/scikit-learn).  During the sprint we will also use a Discord and so during the sprint Discord might be the best way to communicate.  But after the sprint ends, the core developers will probably not be staying around on the Discord, but you can always go to the Gitter channel for help.
 
 ### Slide 3 (1:24)
-<a href="https://youtu.be/5OL8XoMMOfA?t=196" target="_blank"><img  src="images/sklearn_video_x.png" width="33%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=84" target="_blank"><img  src="images/sklearn_video3.png" width="33%" /></a>
 
 
 So, you already joined us and, or at least you're looking at this video. So I hope you're already highly motivated to start contributing. Still I want to go over a couple of reasons you might want to contribute. For a lot of people it's about giving back to the projects that
@@ -43,8 +46,7 @@ Also it'll just get you more familiar with data science tools if you're directly
 open source is really about the community.  And unless you're really interested in the project you probably won't be able to stick around for too long.  So really what we were mostly in for is giving back your projects, interacting with the other contributors, and just having fun working on the projects.
 
 ### Slide 5: Set up Python environment (3:16)
-<a href="https://youtu.be/5OL8XoMMOfA?t=196" target="_blank"><img  src="images/sklearn_video3.png" width="33%" /></a>
-
+ 
 So now let's get to the technical part. So first want to talk about the set up.  If you want to develop a Python project, obviously you need to first have a local installation.  And so if you already have a working Python environment that's fine. If not I would say just install Anaconda. It's usually the easiest way to go.  If you have a working environment already, make sure you're not using the system Python in OS X, but that you're using a separate environment to do your development in. If you already have an Anaconda installation, just create a separate virtual environment for the sprint.  
 
 ### Slide 6: (4:05)
