@@ -76,7 +76,6 @@ All right, so now you have your python environment setup.  You have a separate e
 
 You can do this by clicking the fork button on the top right here.  This will create your personal fork and will take you there. So you can see here top left this is my fork, amueller slash scikit-learn. Amueller is my GitHub handle, so you'll have your GitHub handle there. And you can see it's a fork of scikit-learn slash scikit-learn, the main repository.  
 
-#### (5:50)
 So this is now your own private copy on GitHub. So this copy, you have write access to and you can make changes on this.  From there, you'll get your own local copy on your own machine by cloning it. And so there's this green button clone or download that you can see here.  You click on this and you can copy the link and do `git clone` with this URL. And this will download a copy to your local machine, your laptop, or PC. When you do this, one thing that's important is that you use HTTPS.  So you click here and you should use HTTPS and you'll get an HTTP address.  I'm using SSH which is easier if you have SSH keys set up up on your local machine.  If you don't
 have SSH keys set up and you haven't put them in your GitHub account and so on, then just use HTTPS.  It's gonna be much
 easier.  Once you downloaded the repository from your clone, you also want to add the main repository as an upstream so you can download the newest version from the upstream repository if someone else makes changes.  You can do this within your repository by doing `git
