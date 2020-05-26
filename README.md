@@ -1,7 +1,8 @@
+
 <p float="left">
-  <img src="images/full logo-transparent copy.png" height="40%" width="40%" />
+ <a href="https://www.dataumbrella.org" target="_blank"> <img src="images/full logo-transparent copy.png" height="40%" width="40%" /> </a>
   <img  width="150" />
-  <img src="images/1280px-Scikit_learn_logo_small.svg.png" width="15%" height="15%" /> 
+   <a href="https://github.com/scikit-learn" target="_blank"> <img src="images/1280px-Scikit_learn_logo_small.svg.png" width="15%" height="15%" />  </a>
 </p>
 
 # Data Umbrella: scikit-learn sprint
