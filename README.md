@@ -1,3 +1,10 @@
+<p float="left">
+  <img src="images/blue_logo_full.jpg" height="100" width="400" />
+   <img  width="100" />
+  <img src="images/1280px-Scikit_learn_logo_small.svg.png" width="25%" height="25%" /> 
+
+</p>
+
 # Data Umbrella: scikit-learn sprint
 
 ## Key Links
