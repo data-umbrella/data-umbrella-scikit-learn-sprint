@@ -19,10 +19,10 @@
 - **[Contributing Workflow Commands](contributing/workflow.md)** (environment set-up, repo, submitting PR)
 
 ## Video
-<a href="https://youtu.be/5OL8XoMMOfA" target="_blank"><img src="images/sklearn_video1.png" width="90%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=0" target="_blank"><img src="images/sklearn_video1.png" width="90%" /></a>
 
 ### Slide 1: Intro (0:00)
-<a href="https://youtu.be/5OL8XoMMOfA" target="_blank"><img src="images/sklearn_video1.png" width="33%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1" target="_blank"><img src="images/sklearn_video1.png" width="33%" /></a>
 
 
 Hey everybody, so this is an instruction video on how to contribute to source projects, in particular to scikit-learn.  I'm Andreas Mueller, one of the core developers of the scikit-learn project.  Thanks for Reshama and Data Umbrella for organizing this sprint.  So I really want to give you just a very brief overview of the technology behind contributing to open source and the steps of getting your first contributions in.  
@@ -42,14 +42,20 @@ they're already using.  So the users of projects are usually the best contributo
 that have always been bothering you about library, like fix things, fix documentation and just make the projects better. 
 
 ### Slide 4: Reasons to Contribute (2:33)
+<a href="https://youtu.be/5OL8XoMMOfA?t=153" target="_blank"><img  src="images/sklearn_video4.png" width="33%" /></a>
+
+
 Also it'll just get you more familiar with data science tools if you're directly contributing to projects.  Definitely contributing to open source could also be helpful in looking for jobs, though if this is your own only motivation, it might not work out so well because
 open source is really about the community.  And unless you're really interested in the project you probably won't be able to stick around for too long.  So really what we were mostly in for is giving back your projects, interacting with the other contributors, and just having fun working on the projects.
 
 ### Slide 5: Set up Python environment (3:16)
+<a href="https://youtu.be/5OL8XoMMOfA?t=196" target="_blank"><img  src="images/sklearn_video5.png" width="33%" /></a>
  
 So now let's get to the technical part. So first want to talk about the set up.  If you want to develop a Python project, obviously you need to first have a local installation.  And so if you already have a working Python environment that's fine. If not I would say just install Anaconda. It's usually the easiest way to go.  If you have a working environment already, make sure you're not using the system Python in OS X, but that you're using a separate environment to do your development in. If you already have an Anaconda installation, just create a separate virtual environment for the sprint.  
 
 ### Slide 6: (4:05)
+<a href="https://youtu.be/5OL8XoMMOfA?t=245" target="_blank"><img  src="images/sklearn_video6.png" width="33%" /></a>
+
 So I give the command here which is `conda create -n` and I gave it a name for the environment, here call it `sklearndev`.  And then all the packages that it will depend on: `numpy scipy matplotlib pytest sphinx cython ipykernel`.  So, we're actually not installing scikit-learn using conda. We're going to install the development version.  And so then you can activate this environment using `source activate sklearndev` or `conda activate sklearndev`, I think on Windows mostly.  
 
 ```bash
