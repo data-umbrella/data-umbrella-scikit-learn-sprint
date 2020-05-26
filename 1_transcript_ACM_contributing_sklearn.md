@@ -21,7 +21,7 @@
 ## Video
 <a href="https://youtu.be/5OL8XoMMOfA" target="_blank"><img src="images/sklearn_video1.png" width="90%" /></a>
 
-### Slide 1 (0:00)
+### Slide 1: Intro (0:00)
 <a href="https://youtu.be/5OL8XoMMOfA" target="_blank"><img src="images/sklearn_video1.png" width="33%" /></a>
 
 
@@ -33,7 +33,7 @@ Hey everybody, so this is an instruction video on how to contribute to source pr
 
 So first off, a great way to communicate with the developers is the Gitter channel.  You can find that at [gitter.im/scikit-learn](https://gitter.im/scikit-learn). For the sprint, there is a channel called "sprint":  [gitter.im/scikit-learn/sprint](https://gitter.im/scikit-learn/sprint).  And there is also a scikit-learn channel that's just a general channel: [gitter.im/scikit-learn/scikit-learn](https://gitter.im/scikit-learn/scikit-learn).  During the sprint we will also use a Discord and so during the sprint Discord might be the best way to communicate.  But after the sprint ends, the core developers will probably not be staying around on the Discord, but you can always go to the Gitter channel for help.
 
-### Slide 3 (1:24)
+### Slide 3: Reasons to Contribute (1:24)
 <a href="https://youtu.be/5OL8XoMMOfA?t=84" target="_blank"><img  src="images/sklearn_video3.png" width="33%" /></a>
 
 
@@ -41,7 +41,7 @@ So, you already joined us and, or at least you're looking at this video. So I ho
 they're already using.  So the users of projects are usually the best contributors.  And so hopefully open source projects already have helped you in your coding journey and your job and so on. And contributing back is a great way to give back to the community.  It also gives you a great opportunity to learn from the other people involved in a project which are often senior developers which will give you feedback about like coding style and also on how to use the different projects and how to interact.  It also allows you to address issues
 that have always been bothering you about library, like fix things, fix documentation and just make the projects better. 
 
-### Slide 4 (2:33)
+### Slide 4: Reasons to Contribute (2:33)
 Also it'll just get you more familiar with data science tools if you're directly contributing to projects.  Definitely contributing to open source could also be helpful in looking for jobs, though if this is your own only motivation, it might not work out so well because
 open source is really about the community.  And unless you're really interested in the project you probably won't be able to stick around for too long.  So really what we were mostly in for is giving back your projects, interacting with the other contributors, and just having fun working on the projects.
 
