@@ -53,9 +53,6 @@ open source is really about the community.  And unless you're really interested 
  
 So now let's get to the technical part. So first want to talk about the set up.  If you want to develop a Python project, obviously you need to first have a local installation.  And so if you already have a working Python environment that's fine. If not I would say just install Anaconda. It's usually the easiest way to go.  If you have a working environment already, make sure you're not using the system Python in OS X, but that you're using a separate environment to do your development in. If you already have an Anaconda installation, just create a separate virtual environment for the sprint.  
 
-### Slide 6: Fork sklearn on GitHub (4:57)
-<a href="https://youtu.be/5OL8XoMMOfA?t=297" target="_blank"><img  src="images/sklearn_s6.png" width="50%" /></a>
-
 So I give the command here which is `conda create -n` and I gave it a name for the environment, here call it `sklearndev`.  And then all the packages that it will depend on: `numpy scipy matplotlib pytest sphinx cython ipykernel`.  So, we're actually not installing scikit-learn using conda. We're going to install the development version.  And so then you can activate this environment using `source activate sklearndev` or `conda activate sklearndev`, I think on Windows mostly.  
 
 ```bash
@@ -65,11 +62,15 @@ conda install -c conda-forge sphinx-gallery
 ```
 Then, if you want to work on documentation, you also need to install the sphinx-gallery package.  This is not on main conda so you need to install it from the conda-forge channel using `conda install -c conda-forge sphinx-gallery`.
 
+
+### Slide 6: Fork sklearn on GitHub (4:57)
+<a href="https://youtu.be/5OL8XoMMOfA?t=297" target="_blank"><img  src="images/sklearn_s6.png" width="50%" /></a>
+
 All right, so now you have your python environment setup.  You have a separate environment for scikit-learn development. Now you're going to get the newest development version of scikit-learn.  To do this, first you go to the main scikit-learn repository github.com slash scikit-learn, slash scikit-learn:  [github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) and you'll create a fork. The fork is basically your own personal copy of the repository on GitHub. 
 
 
 ### Slide 7: Clone the Fork (5:31)
-<a href="https://youtu.be/5OL8XoMMOfA?t=298" target="_blank"><img  src="images/sklearn_s7.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=330" target="_blank"><img  src="images/sklearn_s7.png" width="50%" /></a>
 
  You can do this by clicking the fork button on the top right here.  This will create your personal fork and will take you there. So you can see here top left this is my fork, amueller slash scikit-learn. Amueller is my GitHub handle, so you'll have your GitHub handle there. And you can see it's a fork of scikit-learn slash scikit-learn, the main repository.  
 
