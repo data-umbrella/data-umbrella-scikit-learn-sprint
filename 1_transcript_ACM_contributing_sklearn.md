@@ -42,19 +42,19 @@ they're already using.  So the users of projects are usually the best contributo
 that have always been bothering you about library, like fix things, fix documentation and just make the projects better. 
 
 ### Slide 4: Reasons to Contribute (2:33)
-<a href="https://youtu.be/5OL8XoMMOfA?t=153" target="_blank"><img  src="images/sklearn_video4.png" width="33%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=153" target="_blank"><img  src="images/sklearn_s4.png" width="33%" /></a>
 
 
 Also it'll just get you more familiar with data science tools if you're directly contributing to projects.  Definitely contributing to open source could also be helpful in looking for jobs, though if this is your own only motivation, it might not work out so well because
 open source is really about the community.  And unless you're really interested in the project you probably won't be able to stick around for too long.  So really what we were mostly in for is giving back your projects, interacting with the other contributors, and just having fun working on the projects.
 
 ### Slide 5: Set up Python environment (3:16)
-<a href="https://youtu.be/5OL8XoMMOfA?t=196" target="_blank"><img  src="images/sklearn_video5.png" width="33%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=196" target="_blank"><img  src="images/sklearn_s5.png" width="33%" /></a>
  
 So now let's get to the technical part. So first want to talk about the set up.  If you want to develop a Python project, obviously you need to first have a local installation.  And so if you already have a working Python environment that's fine. If not I would say just install Anaconda. It's usually the easiest way to go.  If you have a working environment already, make sure you're not using the system Python in OS X, but that you're using a separate environment to do your development in. If you already have an Anaconda installation, just create a separate virtual environment for the sprint.  
 
 ### Slide 6: (4:05)
-<a href="https://youtu.be/5OL8XoMMOfA?t=245" target="_blank"><img  src="images/sklearn_video6.png" width="33%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=245" target="_blank"><img  src="images/sklearn_s6.png" width="33%" /></a>
 
 So I give the command here which is `conda create -n` and I gave it a name for the environment, here call it `sklearndev`.  And then all the packages that it will depend on: `numpy scipy matplotlib pytest sphinx cython ipykernel`.  So, we're actually not installing scikit-learn using conda. We're going to install the development version.  And so then you can activate this environment using `source activate sklearndev` or `conda activate sklearndev`, I think on Windows mostly.  
 
@@ -66,6 +66,8 @@ conda install -c conda-forge sphinx-gallery
 Then, if you want to work on documentation, you also need to install the sphinx-gallery package.  This is not on main conda so you need to install it from the conda-forge channel using `conda install -c conda-forge sphinx-gallery`.
 
 ### Slide 7: Clone the Fork (4:58)
+<a href="https://youtu.be/5OL8XoMMOfA?t=298" target="_blank"><img  src="images/sklearn_s6.png" width="33%" /></a>
+
 All right, so now you have your python environment setup.  You have a separate environment for scikit-learn development. Now you're going to get the newest development version of scikit-learn.  To do this, first you go to the main scikit-learn repository github.com slash scikit-learn, slash scikit-learn:  [github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) and you'll create a fork. The fork is basically your own personal copy of the repository on GitHub.  You can do this by clicking the fork button on the top right here.  This will create your personal fork and will take you there. So you can see here top left this is my fork, amueller slash scikit-learn. Amueller is my GitHub handle, so you'll have your GitHub handle there. And you can see it's a fork of scikit-learn slash scikit-learn, the main repository.  
 
 #### (5:50)
