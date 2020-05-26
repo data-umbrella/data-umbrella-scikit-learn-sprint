@@ -19,10 +19,10 @@
 - **[Contributing Workflow Commands](contributing/workflow.md)** (environment set-up, repo, submitting PR)
 
 ## Video
-<a href="https://youtu.be/5OL8XoMMOfA" target="_blank"><img src="images/sklearn_video1.png" width="90%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA" ><img src="images/sklearn_video1.png" width="90%" /></a>
 
 ### Slide 1: Intro (0:00)
-<a href="https://youtu.be/5OL8XoMMOfA?t=1" target="_blank"><img src="images/sklearn_video1.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="images/sklearn_video1.png" width="50%" /></a>
 
 
 Hey everybody, so this is an instruction video on how to contribute to source projects, in particular to scikit-learn.  I'm Andreas Mueller, one of the core developers of the scikit-learn project.  Thanks for Reshama and Data Umbrella for organizing this sprint.  So I really want to give you just a very brief overview of the technology behind contributing to open source and the steps of getting your first contributions in.  
