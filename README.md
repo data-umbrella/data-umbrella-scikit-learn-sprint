@@ -1,7 +1,7 @@
 <p float="left">
-  <img src="images/full logo-transparent copy.png" height="50%" width="50%" />
+  <img src="images/full logo-transparent copy.png" height="40%" width="40%" />
 <img  width="100" />
-    <img src="images/1280px-Scikit_learn_logo_small.svg.png" width="25%" height="25%" /> 
+    <img src="images/1280px-Scikit_learn_logo_small.svg.png" width="15%" height="15%" /> 
 
 
 </p>
