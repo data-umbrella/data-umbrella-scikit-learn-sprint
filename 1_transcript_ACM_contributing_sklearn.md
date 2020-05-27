@@ -203,7 +203,7 @@ So really we're emphasizing that it's a good idea to start with something really
 
 
 ### Slide 19: Final Words (29:00)
-<a href="https://youtu.be/5OL8XoMMOfA?t=1750" target="_blank"><img  src="images/sklearn_s19.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1709" target="_blank"><img  src="images/sklearn_s19.png" width="50%" /></a>
 
 Yeah so if you want to add a  major features to scikit-learn, that's probably not something you can do in a day.  Adding a new model to scikit-learn is usually something that take many months and it's not something you should try to attempt at the beginning. So really start with something simple and then maybe if you got your first first two pull requests and you can work at adding like a smaller feature but don't count on adding a big feature anytime soon.  That is because scikit-learn is already quite a mature library and so it's moving quite slowly.  And so it's hard to add anything big or make any big new changes. Also there might be a lot of interesting issues that are not appropriately tagged.  So if you're interested in particular topic you can just search the topic on the issue tracker or on the pull requests and see if there's something interesting happening there.
 
