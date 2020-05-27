@@ -210,7 +210,7 @@ Yeah so if you want to add a  major features to scikit-learn, that's probably no
 ### Slide 20: Thank you (29:59)
 <a href="https://youtu.be/5OL8XoMMOfA?t=1797" target="_blank"><img  src="images/sklearn_s20.png" width="50%" /></a>
 
-So with this I want to say enjoy the sprint and thank you all for your help and I hope you have a lot of fun, you'll learn a lot working together with your sprint partner. And I hope you'll come back for more sprints or you just keep engaging on the issue tracker. All right so, thank you so much!
+So with this I want to say enjoy the sprint and thank you all for your help and I hope you have a lot of fun.  You'll learn a lot working together with your sprint partner. And I hope you'll come back for more sprints or you just keep engaging on the issue tracker. All right so, thank you so much!
 
 
 
