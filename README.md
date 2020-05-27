@@ -14,7 +14,7 @@ See the [Sprint Website](https://sites.google.com/view/nyc-2020-scikit-sprint/ho
 - [Organizers](https://sites.google.com/view/nyc-2020-scikit-sprint/organizers)
 
 ## Post-event
-- Post-event [feedback survey] ()
+- [Feedback Form](https://forms.gle/3EGix7RMNw6mAAHLA)
 
 ## AGENDA
 - **06-Jun-2020** (Saturday); 12pm - 4pm EST (event is online)
