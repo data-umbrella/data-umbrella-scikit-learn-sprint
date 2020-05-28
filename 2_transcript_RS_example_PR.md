@@ -10,7 +10,7 @@
 
 ## Video Transcript
 - Speaker:  [Reshama Shaikh](https://twitter.com/reshamas)   
-- Video:  [Scikit-learn PR Contributing Example](https://youtu.be/5OL8XoMMOfA) (28 minutes)
+- Video:  [Scikit-learn PR Contributing Example](https://youtu.be/5OL8XoMMOfA) (27 minutes)
 - Transcriber: [Reshama Shaikh](https://twitter.com/reshamas)
 
 ## Key Links
