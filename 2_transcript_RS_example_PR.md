@@ -5,7 +5,8 @@
 </p>
 
 
-# [Data Umbrella](https://www.dataumbrella.org): Example of Contributing and Submitting a Pull Request to [scikit-learn](https://github.com/scikit-learn)
+# [Data Umbrella](https://www.dataumbrella.org)
+## Example of Contributing and Submitting a Pull Request to [scikit-learn](https://github.com/scikit-learn)
 
 ## Video Transcript
 - Speaker:  [Reshama Shaikh](https://twitter.com/reshamas)   
@@ -19,12 +20,12 @@
 - [Scikit-learn Contributing Documentation](http://scikit-learn.org/stable/developers/contributing.html)
 
 ## Video
-<a href=" "><img src="images/sklearn_video2.png" width="90%" /></a>
+<a href=" "><img src="images/sklearn_rs_video.png" width="90%" /></a>
 
 ---
 
 ### Slide 1: Intro (0:00)
-<a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="images/sklearn_video1.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="images/sklearn_rs_video.png" width="50%" /></a>
 
  
 
