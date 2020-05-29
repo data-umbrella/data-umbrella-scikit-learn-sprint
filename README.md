@@ -42,7 +42,7 @@ Join the scikit-learn Gitter community
 * For the sprint, we will focus on issues with the labels: [easy](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aissue+is%3Aopen+label%3AEasy) / [good first issue](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue") / [help wanted](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aissue+is%3Aopen+label%3A"help+wanted")
 * Go through the issues (with the above labels) and become familiar with them 
 
-### 5.  Watch [Crash Course Contributing to Sklearn](1_transcript_ACM_contributing_sklearn.md) 
+### 5.  Watch [Crash Course in Contributing to Sklearn](1_transcript_ACM_contributing_sklearn.md) 
 This is a 30 minute video by Andreas Mueller.  A full transcript and slides are provided.
  
 ### 6.  Watch [Step-by-step Example of Submitting a Pull Request to Sklearn](2_transcript_RS_example_PR.md) 
