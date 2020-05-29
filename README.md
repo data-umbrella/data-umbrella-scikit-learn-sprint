@@ -43,17 +43,18 @@ Join the scikit-learn Gitter community
 * For the sprint, we will focus on issues with the labels: [easy](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aissue+is%3Aopen+label%3AEasy), [good first issue](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue"), [help wanted](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aissue+is%3Aopen+label%3A"help+wanted")
 * Go through the issues (with the above labels) and become familiar with them 
 
-### 5.  Curated List of Issues
-- [issues to do list](https://github.com/data-umbrella/2020-sklearn-sprint)  (TO DO LATER)
-
-### 6.  Watch [Crash Course Contributing to Sklearn](1_transcript_ACM_contributing_sklearn.md) 
+### 5.  Watch [Crash Course Contributing to Sklearn](1_transcript_ACM_contributing_sklearn.md) 
 #### (30 min video by Andreas Mueller)
 
-### 7.  Watch [Step-by-step Example of Submitting a Pull Request to Sklearn](2_transcript_RS_example_PR.md) 
+### 6.  Watch [Step-by-step Example of Submitting a Pull Request to Sklearn](2_transcript_RS_example_PR.md) 
 #### (27 min video by Reshama Shaikh)
 
+---
+
 ## SPRINT DAY
-- [Crash Course in Contributing](data-umbrella-sprint-intro.pdf) (pdf slides)
+
+### Curated List of Issues
+- [issues to do list](https://github.com/data-umbrella/2020-sklearn-sprint)  (TO DO LATER)
 
 
 ---
