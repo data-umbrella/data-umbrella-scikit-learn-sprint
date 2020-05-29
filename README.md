@@ -43,11 +43,11 @@ Join the scikit-learn Gitter community
 * Go through the issues (with the above labels) and become familiar with them 
 
 ### 5.  Watch [Crash Course Contributing to Sklearn](1_transcript_ACM_contributing_sklearn.md) 
-#### (30 min video by Andreas Mueller)
-
+This is a 30 minute video by Andreas Mueller.  A full transcript and slides are provided.
+ 
 ### 6.  Watch [Step-by-step Example of Submitting a Pull Request to Sklearn](2_transcript_RS_example_PR.md) 
-#### (27 min video by Reshama Shaikh)
-
+This is a 30 minute video by Reshama Shaikh.  A full transcript is provided.
+ 
 ### 7.  Set up [Working Environment](3_setup.md)
 
 ---
