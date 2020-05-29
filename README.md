@@ -33,7 +33,7 @@ Join the scikit-learn Gitter community
 * [gitter.im/scikit-learn/home](https://gitter.im/scikit-learn/home)
 * [gitter.im/scikit-learn/sprint](https://gitter.im/scikit-learn/sprint)
 
-### 3.  Read thru [scikit-learn Contributing documentation](http://scikit-learn.org/stable/developers/contributing.html)
+### 3.  Read thru [Sklearn Contributing documentation](http://scikit-learn.org/stable/developers/contributing.html)
 * It is approximately 15 pages
 
 ### 4.  Review [Open Issues](https://github.com/scikit-learn/scikit-learn/issues) 
