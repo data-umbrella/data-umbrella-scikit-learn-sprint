@@ -74,10 +74,7 @@ upstream	https://github.com/scikit-learn/scikit-learn.git (push)
 git pull upstream master
 ```
 
-### To fetch (someone else's) PR:
-```bash
-git fetch https://github.com/theirusername/reponame.git theirbranch:ourbranch
-```
+
 
 
 ---
@@ -85,6 +82,11 @@ git fetch https://github.com/theirusername/reponame.git theirbranch:ourbranch
 ## PART C:  Select issue
 - Pick an issue to work on:  https://github.com/scikit-learn/scikit-learn/issues
 - Comment on issue with:  *I'm working on this*
+
+### To fetch (someone else's) PR:
+```bash
+git fetch https://github.com/theirusername/reponame.git theirbranch:ourbranch
+```
 
 ---
 
