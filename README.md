@@ -48,12 +48,13 @@ Join the scikit-learn Gitter community
 ### 6.  Watch [Step-by-step Example of Submitting a Pull Request to Sklearn](2_transcript_RS_example_PR.md) 
 #### (27 min video by Reshama Shaikh)
 
+### 7.  Set up [Working Environment](3_setup.md)
+
 ---
 
 ## SPRINT DAY
 
-### Curated List of Issues
-- [issues to do list](https://github.com/data-umbrella/2020-sklearn-sprint)  (TO DO LATER)
+### [Begin Contributing](4_contributing.md)
 
 
 ---
