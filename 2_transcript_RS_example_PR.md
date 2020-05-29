@@ -20,12 +20,12 @@
 - [Scikit-learn Contributing Documentation](http://scikit-learn.org/stable/developers/contributing.html)
 
 ## Video
-<a href=" "><img src="images/sklearn_rs_video.png" width="90%" /></a>
+<a href="https://youtu.be/PU1WyDPGePI"><img src="images/sklearn_rs_video.png" width="90%" /></a>
 
 ---
 
 ### Slide 1: Intro (0:00)
-<a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="images/sklearn_rs_video.png" width="50%" /></a>
+<a href="https://youtu.be/PU1WyDPGePI?t=1"><img src="images/sklearn_rs_video.png" width="50%" /></a>
 
  
 
