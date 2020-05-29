@@ -46,9 +46,11 @@ Join the scikit-learn Gitter community
 ### 5.  Curated List of Issues
 - [issues to do list](https://github.com/data-umbrella/2020-sklearn-sprint)  (TO DO LATER)
 
-### 6.  Watch [Crash Course Contributing to Sklearn](1_transcript_ACM_contributing_sklearn.md) (30 min video by Andreas Mueller)
+### 6.  Watch [Crash Course Contributing to Sklearn](1_transcript_ACM_contributing_sklearn.md) 
+#### (30 min video by Andreas Mueller)
 
-### 7.  Watch [Step-by-step Example of Contributing to Sklearn and Submitting a Pull Request](2_transcript_RS_example_PR.md) (27 min video by Reshama Shaikh)
+### 7.  Watch [Step-by-step Example of Contributing to Sklearn and Submitting a Pull Request](2_transcript_RS_example_PR.md) 
+#### (27 min video by Reshama Shaikh)
 
 ## SPRINT DAY
 - [Crash Course in Contributing](data-umbrella-sprint-intro.pdf) (pdf slides)
