@@ -179,12 +179,12 @@ Do this on GitHub.
 REMINDER:  Under `Conversation [description]` include references to which **Issues** and other **PRs** that your PR is related to.  
 
 <kbd>
-<img src="../images/pr_ex1_raw.png"  width="80%" height="80%" />
+<img src="images/pr_ex1_raw.png"  width="80%" height="80%" />
 </kbd>
 
 
 <kbd>
-<img src="../images/pr_ex1_md.png"  width="80%" height="80%" />
+<img src="images/pr_ex1_md.png"  width="80%" height="80%" />
 </kbd>
 
 
@@ -198,7 +198,7 @@ These tests happen automatically after a PR has been submitted:
 </p>
 
 <kbd>
-<img src="../images/reg_tests.png"  width="80%" height="80%" />
+<img src="images/reg_tests.png"  width="80%" height="80%" />
 </kbd>
 
 
@@ -212,7 +212,7 @@ This is what it looks like when **all the checks** have passed!
 </p>
 
 <kbd>
-<img src="../images/checks_passed.png" border="5" width="70%" height="70%"/>
+<img src="images/checks_passed.png" border="5" width="70%" height="70%"/>
 </kbd>
 
 
@@ -231,7 +231,7 @@ This is what a **merged** icon looks like:
 <p>
 </p>
 <kbd>
-<img src="../images/merged.png" border="5" width="70%" height="70%"/>
+<img src="images/merged.png" border="5" width="70%" height="70%"/>
 </kbd>
 
 ## Returning to work: reminder to sync repo before beginning work
