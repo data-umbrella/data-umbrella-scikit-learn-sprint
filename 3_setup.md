@@ -1,4 +1,4 @@
-# Workflow: Setup Environment
+# Setting up Environment and Repo
 
 ## PART A:  Set-up work environment
 
