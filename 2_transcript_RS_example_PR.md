@@ -4,8 +4,6 @@
    <a href="https://github.com/scikit-learn" target="_blank"> <img src="images/1280px-Scikit_learn_logo_small.svg.png" width="15%" height="15%" />  </a>
 </p>
 
-
-# [Data Umbrella](https://www.dataumbrella.org)
 ## Example of Contributing and Submitting a Pull Request to [scikit-learn](https://github.com/scikit-learn)
 
 ## Video Transcript
@@ -20,7 +18,7 @@
 - [Scikit-learn Contributing Documentation](http://scikit-learn.org/stable/developers/contributing.html)
 
 ## Video
-<a href="https://youtu.be/PU1WyDPGePI"><img src="images/sklearn_rs_video.png" width="90%" /></a>
+<a href="https://youtu.be/PU1WyDPGePI"><img src="images/sklearn_rs_video.png" width=80%" /></a>
 
 ---
 
@@ -76,7 +74,10 @@ tests did not pass
 I made a I made a documentation change
 and occasionally some test doesn't pass
 but it doesn't impact actually it says
-over here gets kicked so let's see what
+over here gets kicked.
+
+
+So let's see what
 happens I had done I get add a git
 commit now I'm gonna do git push I'm
 gonna do get push origin is to my remote
@@ -118,6 +119,8 @@ information here I can also preview over
 here and tells me what it references
 which one it tells me that and here I can I click on allow edits my maintainer x' okay something needs to be changed I can go through here that tells me that this is exactly what I changed I changed one line and the line I change was instead of a thousand by default it's default equals a thousand so it looks like everything is in order.  I am going to create the pull request okay and now notice I'm at the spike it learn me though and it is running some checks right here this is in gold so means it's still processing right there I'm going to go to the repo I'm gonna click on pull requests and this is just a way to see what are the pull requests other people have submitted notice that it's in green it has the dark it has the circle I'm going to go back into it just to see what's happening there's a bunch of checks here form progress to pending to neutral one successful sometimes if you know if the check fails you can click on details here this one has passed so I'm just going to open this up in another tab just to see what's going on and it gives some information huh log and we'll get home because I could do that later and this can also take a bit of time and sometimes when we're in a sprint a lot of people are submitting for requests that takes a little bit longer also let's see what happens if I walk in here. I'm going to
 [Music]
+
+
 interesting.  All right, let me click on these details again and see what happens.  This is what I wanted, zero errors at zero mornings. Okay, I'm going to come back here and I'm gonna just look at this one here and it tells me that there's one test one successful fail and so this is actually a good way as these tests are being run if they fail you can click on these details and get more information about why they failed so I am going to stop right here and then come back to it so I am back I am checking to see my pull request it looks like all checks have passed which is great just so that you know the first time I did these peers I did not get so lucky but you know one of your tests doesn't listen pass you can open up the details and look for more click through and look for more information about what's in there sometimes you'll have a comment back from a reviewer 
 
 
