@@ -50,7 +50,7 @@ Please take photos and tweet about the event.
 - #ScikitLearnSprint
 - #opensource
 - [@DataUmbrella](https://twitter.com/DataUmbrella)
-- Twitter handles of [Volunteers](https://sites.google.com/view/nyc-2020-scikit-sprint/organizers)
+- Twitter handles of [Core Contributors and Volunteers](https://sites.google.com/view/nyc-2020-scikit-sprint/organizers)
 
 
 ## Resource
