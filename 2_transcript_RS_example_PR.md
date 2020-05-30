@@ -18,7 +18,7 @@
 - [Scikit-learn Contributing Documentation](http://scikit-learn.org/stable/developers/contributing.html)
 
 ## Video
-<a href="https://youtu.be/PU1WyDPGePI"><img src="images/sklearn_rs_video.png" width=80%" /></a>
+<a href="https://youtu.be/PU1WyDPGePI"><img src="images/sklearn_rs_video.png" width="80%" /></a>
 
 ---
 
