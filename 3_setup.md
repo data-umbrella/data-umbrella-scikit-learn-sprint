@@ -1,10 +1,5 @@
 # Workflow: Setup Environment
 
-PR = Pull Request  
-**Important Note:**  Please include **(#DataUmbrella)** in your PR commit message so we can track them. 
-
----
-
 ## PART A:  Set-up work environment
 
 #### Set up virtual environment
