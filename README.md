@@ -16,7 +16,8 @@ See the [Sprint Website](https://sites.google.com/view/nyc-2020-scikit-sprint/ho
 ## Post-event
 - [Feedback Form](https://forms.gle/3EGix7RMNw6mAAHLA)
 
-## AGENDA
+## Event Info
+- Organized by: [Reshama Shaikh](https://www.twitter.com/reshamas)
 - **06-Jun-2020** (Saturday); 12pm - 4pm EST (event is online)
 
 ## PREPARATION
