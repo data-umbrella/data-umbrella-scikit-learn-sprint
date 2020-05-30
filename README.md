@@ -11,7 +11,6 @@
 See the [Sprint Website](https://sites.google.com/view/nyc-2020-scikit-sprint/home) for:  
 - [Prerequisites](https://sites.google.com/view/nyc-2020-scikit-sprint/home)
 - [Code of Conduct](https://www.dataumbrella.org/about/code-of-conduct)
-- [Organizers](https://sites.google.com/view/nyc-2020-scikit-sprint/organizers)
 
 ## Post-event
 - [Feedback Form](https://forms.gle/3EGix7RMNw6mAAHLA)
