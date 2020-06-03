@@ -1,5 +1,5 @@
 <p float="left">
- <a href="https://www.dataumbrella.org" target="_blank"> <img src="images/full logo-transparent copy.png" height="40%" width="40%" /> </a>
+ <a href="https://www.dataumbrella.org"> <img src="images/full logo-transparent copy.png" height="40%" width="40%" /> </a>
   <img  width="150" />
    <a href="https://github.com/scikit-learn" target="_blank"> <img src="images/1280px-Scikit_learn_logo_small.svg.png" width="15%" height="15%" />  </a>
 </p>
