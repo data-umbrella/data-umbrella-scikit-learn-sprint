@@ -15,7 +15,7 @@ conda create -n sklearndev numpy scipy matplotlib pytest sphinx cython ipykernel
 
 #### Activate virtual environment:  
 ```bash
-source activate sklearndev
+conda activate sklearndev
 ```
 #### Additional installs
 ```bash
