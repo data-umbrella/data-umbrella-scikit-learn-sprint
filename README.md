@@ -12,8 +12,6 @@ See the [Sprint Website](https://sites.google.com/view/nyc-2020-scikit-sprint/ho
 - [Prerequisites](https://sites.google.com/view/nyc-2020-scikit-sprint/home)
 - [Code of Conduct](https://www.dataumbrella.org/about/code-of-conduct)
 
-## Post-event
-- [Feedback Form](https://forms.gle/3EGix7RMNw6mAAHLA)
 
 ## Event Info
 - Organized by: [Reshama Shaikh](https://www.twitter.com/reshamas)
