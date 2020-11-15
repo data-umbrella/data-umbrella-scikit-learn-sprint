@@ -1,6 +1,6 @@
 
 # Example of Contributing and Submitting a Pull Request to [scikit-learn](https://github.com/scikit-learn)
-=======
+
 <p float="left">
  <a href="https://www.dataumbrella.org" target="_blank"> <img src="images/full logo-transparent copy.png" height="40%" width="40%" /> </a>
   <img  width="150" />
