@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Example of Contributing and Submitting a Pull Request to [scikit-learn](https://github.com/scikit-learn)
 =======
 <p float="left">
@@ -7,15 +7,12 @@
    <a href="https://github.com/scikit-learn" target="_blank"> <img src="images/1280px-Scikit_learn_logo_small.svg.png" width="15%" height="15%" />  </a>
 </p>
 
-## Example of Contributing and Submitting a Pull Request to [scikit-learn](https://github.com/scikit-learn)
->>>>>>> 1003d4ce43a73a58363c1b2ff590b4e44bfff601
-
 ## Video Transcript
 - Speaker:  [Reshama Shaikh](https://twitter.com/reshamas)   
 - Video:  [Scikit-learn PR Contributing Example](https://youtu.be/PU1WyDPGePI) (30 minutes)
 - Transcriber: [Reshama Shaikh](https://twitter.com/reshamas)
 
-<<<<<<< HEAD
+
 =======
 ## Key Links
 - Data Umbrella [Discord](https://discord.gg/mEzEbYT)
@@ -23,7 +20,7 @@
 - **[Contributing Workflow Commands](contributing/workflow.md)** (environment set-up, repo, submitting PR)
 - [Scikit-learn Contributing Documentation](http://scikit-learn.org/stable/developers/contributing.html)
 
->>>>>>> 1003d4ce43a73a58363c1b2ff590b4e44bfff601
+
 ## Video
 <a href="https://youtu.be/PU1WyDPGePI"><img src="images/sklearn_rs_video.png" width="80%" /></a>
 
