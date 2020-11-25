@@ -58,7 +58,7 @@ So I give the command here which is `conda create -n` and I gave it a name for t
 
 ```bash
 conda create -n sklearndev numpy scipy matplotlib pytest sphinx cython ipykernel
-source actviate sklearndev
+source activate sklearndev
 conda install -c conda-forge sphinx-gallery
 ```
 Then, if you want to work on documentation, you also need to install the sphinx-gallery package.  This is not on main conda so you need to install it from the conda-forge channel using `conda install -c conda-forge sphinx-gallery`.
