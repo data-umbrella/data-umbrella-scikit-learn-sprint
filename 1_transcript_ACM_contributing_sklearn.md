@@ -58,7 +58,7 @@ So I give the command here which is `conda create -n` and I gave it a name for t
 
 ```bash
 conda create -n sklearndev numpy scipy matplotlib pytest sphinx cython ipykernel
-source actviate sklearndev
+source activate sklearndev
 conda install -c conda-forge sphinx-gallery
 ```
 Then, if you want to work on documentation, you also need to install the sphinx-gallery package.  This is not on main conda so you need to install it from the conda-forge channel using `conda install -c conda-forge sphinx-gallery`.
@@ -101,7 +101,7 @@ If you want to start from someone else's pull request, where they already starte
 ### Slide 10: Starting on Issues (9:59)
 <a href="https://youtu.be/5OL8XoMMOfA?t=600" target="_blank"><img  src="images/sklearn_s10.png" width="50%" /></a>
 
-So before you start coding, you want to create a new branch for your feature.  You can can do this by doing git checkout dash b (`git checkout -b <brachname>` ) and then a name for your branch.
+So before you start coding, you want to create a new branch for your feature.  You can can do this by doing git checkout dash b (`git checkout -b <branchname>` ) and then a name for your branch.
 
 You shouldn't work on your master branch.  You shouldn't make changes to your master branch.  You should always work on a feature branch. So for example if you want to improve the documentation for random forests, you might do get check out - b  random forests underscore docs or something like this (`git checkout -b randomforests_docs`).  This is mostly for you, but it's useful if it has like an understandable name.
 
