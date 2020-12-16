@@ -191,7 +191,7 @@ git push origin master
 git checkout feature_branch
 ```
 
-### 5 Update working branch files
+### 5. Update working branch files
 ``` 
 git pull upstream master
 git push origin feature_branch
