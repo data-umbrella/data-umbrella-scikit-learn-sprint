@@ -154,6 +154,15 @@ This is what a **merged** icon looks like:
 <img src="images/merged.png" border="5" width="70%" height="70%"/>
 </kbd>
 
+## Deleting branch after your PR has been merged
+
+```python
+git branch -D feature_branch
+```
+
+
+---
+
 ## Returning to work: reminder to sync repo before beginning work
 ```bash
 git pull upstream master
