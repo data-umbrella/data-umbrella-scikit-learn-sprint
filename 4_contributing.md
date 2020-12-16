@@ -163,14 +163,28 @@ git branch -D feature_branch
 
 ---
 
-## Returning to work: reminder to sync repo before beginning work
+## Returning to work
+
+### 1.  Go into directory where scikit-learn repo has been cloned on your computer
+
+### 2.  Activate virtual environment
+```python
+conda activate sklearndev
+```
+
+### 3.  Sync repo before beginning work
 ```bash
 git pull upstream master
 git push origin master
 ```
-Switch to working branch  
+
+### 4.  Switch to working branch  
 ``` 
 git checkout feature_branch
+```
+
+### 5 Update working branch files
+``` 
 git pull upstream master
 git push origin feature_branch
 ```
