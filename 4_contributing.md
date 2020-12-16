@@ -166,6 +166,14 @@ git branch -D feature_branch
 ## Returning to work
 
 ### 1.  Go into directory where scikit-learn repo has been cloned on your computer
+```bash
+cd scikit-learn
+```
+
+>my example
+```bash
+cd /Users/reshamashaikh/software-build/scikit-learn
+```
 
 ### 2.  Activate virtual environment
 ```python
