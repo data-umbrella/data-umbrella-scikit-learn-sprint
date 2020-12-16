@@ -177,7 +177,7 @@ cd scikit-learn
 conda activate sklearndev
 ```
 
-### 3.  Sync repo before beginning work
+### 3.  Sync repo before beginning work (`master` branch)
 ```bash
 git pull upstream master
 git push origin master
