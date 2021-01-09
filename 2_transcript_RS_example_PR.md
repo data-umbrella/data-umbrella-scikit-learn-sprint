@@ -13,7 +13,6 @@
 - Transcriber: [Reshama Shaikh](https://twitter.com/reshamas)
 
 
-=======
 ## Key Links
 - Data Umbrella [Discord](https://discord.gg/mEzEbYT)
 - Gitter: [scikit-learn](https://gitter.im/scikit-learn)
