@@ -5,7 +5,7 @@
 </p>
 
 
-# [Data Umbrella](https://www.dataumbrella.org): Andreas's Video Sprint Instructions for scikit-learn Volume 2
+# [Data Umbrella](https://www.dataumbrella.org): Andreas' Video Sprint Instructions for scikit-learn Volume 2
 
 ## Video Transcript
 - Speaker:  [Andreas Mueller](https://twitter.com/amuellerml)
