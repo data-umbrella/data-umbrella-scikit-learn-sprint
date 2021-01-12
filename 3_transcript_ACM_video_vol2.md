@@ -14,9 +14,8 @@
 - Transcriber: [Victoria Levchenko](https://www.instagram.com/autotelic.computer/)
 
 ## Key Links
-[Data Umbrella Discord](https://discord.gg/mEzEbYT)
-[Contributing Workflow Commands](https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/contributing/workflow.md)
-[Scikit-learn Contributing Documentation](http://scikit-learn.org/stable/developers/contributing.html)
+- [Contributing Workflow Commands](https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/contributing/workflow.md)
+- [Scikit-learn Contributing Documentation](http://scikit-learn.org/stable/developers/contributing.html)
 
 
 ## Video
