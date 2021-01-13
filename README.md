@@ -8,14 +8,13 @@
 # Data Umbrella: scikit-learn sprint
 
 ## Key Links
-See the [Sprint Website](https://sites.google.com/view/nyc-2020-scikit-sprint/home) for:  
-- [Prerequisites](https://sites.google.com/view/nyc-2020-scikit-sprint/home)
+See the [Sprint Website](https://afme2021.dataumbrella.org) for:  
+- [Prerequisites](https://afme2021.dataumbrella.org/about/prep-work)
 - [Code of Conduct](https://www.dataumbrella.org/about/code-of-conduct)
 
 
 ## Event Info
-- Organized by: [Reshama Shaikh](https://www.twitter.com/reshamas)
-- **06-Jun-2020** (Saturday); 12pm - 4pm EST (event is online)
+- **06-Feb-20201* (Saturday); 10am to 2pm EAT (event is online)
 
 ## PREPARATION
 
@@ -31,17 +30,21 @@ Join the scikit-learn Gitter community
 * [gitter.im/scikit-learn/home](https://gitter.im/scikit-learn/home)
 * [gitter.im/scikit-learn/sprint](https://gitter.im/scikit-learn/sprint)
 
-### 3.  Read thru [Sklearn Contributing documentation](http://scikit-learn.org/stable/developers/contributing.html)
+### 3.  Watch video playlist:  [Contributing to scikit-learn](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir-b1fwjNabO3b8ebs9ez5ga)
+* Andreas Mueller: scikit-learn Sprint Instructions  (30 minutes)
+* Reshama Shaikh: Example of Submitting a Pull Request (30 minutes)
+* Andreas Mueller: Sprint Instructions Volume 2  (15 minutes)
+* Melissa Mendonça:  Intro to Sphinx Documentation (xx minutes)
+
+
+### 4.  Read thru [scikit-learn Contributing documentation](http://scikit-learn.org/stable/developers/contributing.html)
 * It is approximately 15 pages
 
-### 4.  Review [Open Issues](https://github.com/scikit-learn/scikit-learn/issues) 
+### 5.  Review [Open Issues](https://github.com/scikit-learn/scikit-learn/issues) 
 * [scikit-learn repository](https://github.com/scikit-learn/scikit-learn)
 * There are over 1000 issues :sweat:
 * For the sprint, we will focus on issues with the labels: [easy](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aissue+is%3Aopen+label%3AEasy) / [good first issue](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue") / [help wanted](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aissue+is%3Aopen+label%3A"help+wanted")
 * Go through the issues (with the above labels) and become familiar with them 
-
-## SPRINT DAY
-[Link to Sprint Day Issues](https://github.com/data-umbrella/2020-sklearn-sprint/projects/1)
 
 ---
 
@@ -50,7 +53,7 @@ Please take photos and tweet about the event.
 - #ScikitLearnSprint
 - #opensource
 - [@DataUmbrella](https://twitter.com/DataUmbrella)
-- Twitter handles of [Core Contributors and Volunteers](https://sites.google.com/view/nyc-2020-scikit-sprint/organizers)
+- Twitter handles of [Organizers & Core Contributors](https://afme2021.dataumbrella.org/organizers)
 
 
 ## Resource
