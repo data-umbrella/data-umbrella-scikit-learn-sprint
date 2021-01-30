@@ -2,9 +2,15 @@
 
 ## PART A:  Set-up work environment
 
+#### Install conda
+
+For instance using the Miniforge3 installer:
+
+https://github.com/conda-forge/miniforge
+
 #### Set up virtual environment
 ```bash
-conda create -n sklearndev numpy scipy matplotlib pytest sphinx cython ipykernel
+conda create -n sklearndev -c conda-forge numpy scipy matplotlib pytest sphinx cython ipykernel
 ```
 
 #### Helpful virtual environment commands to know 
@@ -21,6 +27,21 @@ conda activate sklearndev
 ```bash
 conda install -c conda-forge sphinx-gallery
 ```
+#### Install a C/C++ compiler
+
+##### On Linux or macOS
+
+```bash
+conda install -c conda-forge compilers
+```
+
+##### On Windows
+
+Install **Tools for Visual Studio** from the menu at the bottom of this page:
+
+https://visualstudio.microsoft.com/downloads/
+
+**You do not need to install the full Visual Studio IDE**, just the "Tools".
 
 ---
 
@@ -66,7 +87,7 @@ upstream	https://github.com/scikit-learn/scikit-learn.git (push)
 
 ### Update local repo
 ```bash
-git pull upstream master
+git pull upstream main
 ```
 
  
