@@ -1,5 +1,5 @@
 
-# Ejemplo de contribución y envio de un Pull Request a [scikit-learn](https://github.com/scikit-learn)
+# Ejemplo de contribución y envío de un Pull Request a [scikit-learn](https://github.com/scikit-learn)
 
 <p float="left">
  <a href="https://www.dataumbrella.org" target="_blank"> <img src="../images/full logo-transparent copy.png" height="40%" width="40%" /> </a>
@@ -16,7 +16,7 @@
 ## Enlaces principales
 - Data Umbrella [Discord](https://discord.gg/mEzEbYT)
 - Gitter: [scikit-learn](https://gitter.im/scikit-learn)
-- **[Comandos del flujo de trabajo de contribución](../contributing/workflow.md)** (configuración de entorno, repositorio, envio de un PR)
+- **[Comandos del flujo de trabajo de contribución](../contributing/workflow.md)** (configuración de entorno, repositorio, envío de un PR)
 - [Documentación de contribución a Scikit-learn](http://scikit-learn.org/stable/developers/contributing.html)
 
 
@@ -56,67 +56,227 @@ o escribir sí enter.
 
 Entonces se ha creado el ambiente. Nos dice aquí mismo que activemos este entorno, usa este comando, conda activate sklearn dev. O conda deactivate. Además, si desea ver una lista de sus entornos virtuales, simplemente escribo conda environment list (usa el comando: `conda env list`). Y para mí tengo dos entornos virtuales. Tengo mi entorno dash para otro proyecto que estoy haciendo. Y sklearn dev. Y quiero entrar en ese. Así que voy hacer un conda activate sklearndev. Y quiero hacer instalaciones adicionales dentro de este entorno virtual. Y para hacer eso voy a hacer `conda install -c conda-forge sphinx-gallery`. Y va a ser esta galería de sphinx dash. Aquí vamos. Sí estoy segura. Escribe sí, enter.
 
-### Set Up Repository (3:46)
+### Configurar el repositorio (3:46)
 
-Okay so the next thing that I'm going to do is I'm going to set up my repository.  And so I'm going to go over to scikit-learn.  And this is the main repository. And so I'm going to fork it, so I get a copy within my own account, and I'm going to fork it under my GitHub there.  It just takes a little bit of time.  All right there we go.  So right, here, it has my forked repo and over here it has - okay over here is the main repo. The next thing I'm going to do is I'm going to clone it right here. I have my SSH keys set up so I'm going to use this. If you don't, you want to use this URL. So I'm going to click, use SSH.  I'm going to copy, and then I'm going to go back to my terminal.  I'm going to just clear it and go to the top and I'm going to type `git clone`. And I'm going to clone this.
+Okay, lo siguiente que haré es configurar mi repositorio. Y entonces voy
+a revisar scikit-learn. Y este es el repositorio principal. Y entonces voy
+a forkearlo, para obtener una copia dentro de mi propia cuenta, y lo voy
+a forkear en mi GitHub allí. Solo toma un poco de tiempo. Muy bien, ahí vamos.
+Así que, aquí, tiene mi repositorio forkeado y aquí tiene; bien, aquí está el
+repositorio principal. Lo siguiente que voy a hacer es clonarlo aquí mismo.
+Tengo configuradas mis llaves SSH, así que voy a usar esto. Si no lo haces,
+querrás utilizar esta URL. Entonces voy a hacer clic, usar SSH. Voy a copiar
+y luego voy a volver a mi terminal. Voy a borrarlo e ir a la parte superior
+y voy a escribir `git clone`. Y voy a clonarlo.
 
-Okay so then I'm going to type `ls` and that just lists what I have in this folder.  And it shows scikit-learn right here. And I'm going to `cd` into it.  `cd scikit-learn`.  Okay and the next thing that I'm going to do is I'm going to build from source so I'm going to do pip install - e space dot (uses command: `pip install -e .`).
+Okay, entonces voy a escribir `ls` y eso solo enumera lo que tengo en esta
+carpeta. Y muestra scikit-learn aquí mismo. Y voy a entrar en el con `cd`. `cd
+scikit-learn`. Okay, y lo siguiente que voy a hacer es compilar desde el código
+fuente, así que voy a hacer pip install -e espacio punto (usa el comando: `pip
+install -e .`).
 
-Alright so that took a little bit of time but it looks like it's done.  The next thing that I'm going to do is I'm just going to check my remotes for git (uses command: `git remote -v`). So I have origin, I have mine. And I want to add my upstream. And so to do that, I'm going to go over here. I'm just going to open this in another window. I'm going to get the URL for it.  And the way to do it is that I do `git remote add upstream`.  And I add this URL to it.  Okay and then when I check my remotes, looks like I have the origin.  And I have the upstream, which is good.  That's where I want to be.  So I just cloned the repo and it's up-to-date.  But, say you're going back to your work.  If I want to get the latest changes to scikit-learn, I do `git pull upstream master`.  So I'm pulling from this remote upstream.  And it's the master branch.  Okay, and it tells me it's already up-to-date which I expect, because I just cloned the repo.
+De acuerdo, tomó un poco de tiempo, pero parece que está hecho. Lo siguiente
+que voy a hacer es verificar mis remotes para git (usa el comando: `git remote
+-v`). Entonces tengo origin, tengo el mío. Y quiero agregar mi upstream. Y para
+hacer eso, voy a ir acá. Voy a abrir esto en otra ventana. Voy a obtener la URL
+correspondiente. Y la forma de hacerlo es `git remote add upstream`. Y le
+agrego esta URL. De acuerdo, y luego, cuando reviso mis remotes, parece que
+tengo el origin. Y tengo upstream, que está bien. Ahí es donde quiero estar.
+Así que cloné el repositorio y está actualizado. Pero, digamos que vas a volver
+a tu trabajo. Si quiero obtener los últimos cambios en scikit-learn, hago `git
+pull upstream master`. Así que estoy actualizando de este remote upstream. Y es
+la rama principal. De acuerdo, y me dice que ya está actualizado, lo cual
+esperaba, porque acabo de clonar el repositorio.
 
-### Work on an Issue (7:28)
+### Trabaja en una Issue (7:28)
 
-The next thing that I'm going to do is I'm going to  go to an issue that I have already picked out that I'm going to work on.  And what it's going to be is this issue which is one five seven six one.  And it says that the documentation of default values and many classes are either not included or it's inconsistent and so I'm going to reference this issue in my work. It's going to be one five seven six one, and I'm going to go look at an example of one.  So for instance, here's one where the default values are consistent.  So it says default equals two, default equals Euclidian, it's the string.  Default equals none, so this is the way, the consistent way that it should be. In an example that I found, for instance, in under the decomposition folder under score dict underscore learning, I found one where it is not consistent.  In here, on line 75 it shows - you, can make this a little bit bigger - it shows that it's an integer that goes 1000 by default right. And I just want to I'm going to make a fix to this file alright. So what I'm going to do is I'm going to go back to my terminal here and what I can do is I can go to this issue that's opened, right.  And I can make a comment on it and I can say I am working on - sklearn/decomposition/_dict_learning.py, okay. Just so people know that I'm working on this at the sprint to make sure that somebody else also isn't working on the same thing at the same time.
+Lo siguiente que voy a hacer es ir a un issue que ya seleccioné y en el que voy
+a trabajar. Y lo que va a ser es este issue que es uno cinco siete seis uno.
+Y dice que la documentación de los valores predeterminados y muchas clases no
+están incluidas o son inconsistentes, por lo que voy a hacer referencia a este
+issue en mi trabajo. Va a ser uno cinco siete seis uno, y voy a ir a ver un
+ejemplo de uno. Entonces, por ejemplo, aquí hay uno donde los valores
+predeterminados son consistentes. Entonces dice que el valor predeterminado es
+igual a dos, el valor predeterminado es Euclidiano, es la cadena. El valor
+predeterminado es igual a None, por lo que esta es la forma, la forma coherente
+que debería ser. En un ejemplo que encontré, por ejemplo, en la carpeta de
+decomposition barra abajo dict barra abajo learning, encontré uno en el que no
+es consistente. Aquí, en la línea 75 se muestra: puedes hacer esto un poco más
+grande, muestra que es un número entero que va a 1000 por defecto Okay. Y solo
+quiero arreglar este archivo bien. Entonces, lo que voy a hacer es volver a mi
+terminal aquí y lo que puedo hacer es ir a este issue que está abierto, Okay.
+Y puedo hacer un comentario al respecto y puedo decir que estoy trabajando en:
+sklearn/decomposition/_dict_learning.py, Okay. Solo para que la gente sepa que
+estoy trabajando en esto en el sprint para asegurarme de que alguien más no
+esté trabajando en lo mismo al mismo tiempo.
 
+### Crear una rama para un feature (9:35)
 
-### Create a Feature Branch (9:35)
+Y lo siguiente que voy a hacer es crear una rama de feature. Así que iré aquí
+y llamaré a mi rama git checkout menos b, y lo llamaré doc porque estoy
+trabajando en un cambio de documentación. Y lo voy a llamar dict learning (usa
+el comando: `git checkout -b doc_dictlearning`). Y parece que ya estoy, porque
+creé la rama de esta manera, estoy en la rama allí mismo. Y voy a abrir Visual
+Studio Code, mi editor. Puedes usar cualquier editor que desees, pero estoy
+usando Visual Studio Code. De acuerdo, estoy en el repositorio de scikit-learn,
+mi copia de él, en mi computadora y está en decomposition, está en
+decomposition y es dict barra abajo learning, Okay.
 
-And the next thing that I'm going to do is I'm going to create a feature branch.  So I'm going to go over here and I'm going to call my branch git checkout minus b, and I'm going to call it doc because I'm working on a documentation change.  And I'm going to call it dict learning (uses command: `git checkout -b doc_dictlearning`).  And it looks like I'm already, because I created the branch this way, I'm in the branch right there.  And I'm going to open up visual studio code, my editor.  You can use any editor you wish, but I'm using Visual Studio code. Okay so I'm in the scikit-learn repository, my copy of it, on my computer and it is under decomposition, it's under decomposition, and it is dict underscore learning, okay.
+Entonces aquí estoy y estaba en la línea 75. Okay. Y bien, observa cómo dice
+1000 por defecto. Y si quiero ser consistente, quiero decir que el valor
+predeterminado es igual a 1000. Y voy a venir aquí y voy a hacer eso. Bien,
+entonces voy a guardar este archivo y luego voy a volver a ... Voy a traer esto
+aquí y lo siguiente que hago es confirmar mis cambios, así que voy a hacer `git
+status`.
 
-So here I am and it was on line 75. Okay.  And right, there notice how it says 1000 by default.  And if I want to be consistent, I want to say default equals 1000.  And I'm going to come here and I'm going to do that. Okay and so I am going to save this file and then I'm going to go back to ... I'm gonna bring this over here and the next thing that I do is I'm going to commit my changes so I'm gonna do `git status`.
+¡Ah! Me dice aquí mismo que he modificado este archivo aquí mismo, así que lo
+agregaré y haré `git add sklearn/decomposition/_dict_learning.py`. Bueno.
+Entonces, lo siguiente que haré después de git add es confirmar el archivo
+y git commit -m, entonces la descripción es, voy a decir que voy a decir:
+"Formato actualizado para el valor predeterminado o consistencia".
 
-Ah. It tells me right here that I have modified this file right here so I'm going to add it and do `git add sklearn/decomposition/_dict_learning.py`. Okay. So the next thing that I'm gonna do after git add is I'm going to commit the file and it's `git commit -m` then the description is I'm gonna say I'm gonna say,  "Updated formatting for default value or consistency".
+### Ejecutando pruebas (12:15)
 
-### Running Tests (12:15)
+Está bien, entonces el siguiente paso que voy a hacer antes de enviar mis
+cambios es ejecutar algunas pruebas, así que voy a aprender a ejecutar los pruebas
+de flake8 para formatear. Entonces es flake8 sklearn y aquí voy a poner la ruta
+a mi archivo para que sea decomposition (usa el comando: `flake8
+sklearn/decomposition/_dict_learing.py`) y ahí vamos ahora y me dice que en la
+línea 75 yo creo que tengo un espacio en blanco al final. Así que volveré
+a estar Okay haré control e para el final. Sí, no lo soy. Tenía un espacio
+extra que no debería. Así que voy a retroceder uno. Voy a guardar este archivo
+nuevamente, asegúrate de que se guarden mis cambios. Entonces voy a volver aquí
+Okay. Cuando hago `git status`, debería mostrarme que he cambiado algo y lo
+hace, me lo dice aquí mismo. Así que voy a pasar por el proceso nuevamente. Voy
+a hacer `git add`. De acuerdo, decomposition y voy a hacer git commit, así que
+voy a escribir lo mismo. Voy a decir que actualice mi commit, así que voy
+a decir, "arreglando error de flake8". Ya lo tenemos.
 
-Okay all right so the next step that I'm gonna do before I push my changes is I'm going to run some tests so I am going to learn run the flake8 tests for formatting. So it's flake8 sklearn and here I'm going to put the path to my file so it's going to be decomposition (uses command: `flake8 sklearn/decomposition/_dict_learing.py`) and there we go now and it tells me that on line 75 I have this thought I have a trailing white space.  So I'm going to go back to my okay when I do control e for the end.  Yep I'm not. I had one extra space which I shouldn't. So I'm going to go back one. I'm going to save this file again, make sure my changes are saved.  Then I'm going to come back here okay. When I do `git status` it should show me that I've changed something and it does - it tells me right here.  So I'm going to go through the process again.  I'm going to do `git add`.  Okay decomposition and I'm going to do git commit so I'm going to type in the same thing. I'm going to say update my commit so I'm gonna say, "fixed flake8 error". There we go.
+Okay, voy a ejecutar el test de flake8 nuevamente solo para asegurarme, solo
+hice una flecha hacia arriba, para asegurarme de que ahora que arreglé ese
+espacio final, no me mostró más errores, así que eso es algo bueno. Lo
+siguiente que haré es ejecutar la prueba de `pytest sklearn`. Ahora hice un
+cambio de documentación y no espero que haya ningún error, pero este es un
+ejemplo en el que muestra que estoy ejecutando el conjunto de pytests para
+sklearn solo para ver cómo se ve el resultado.
 
-Okay so great and I'm gonna run the flake8 test again just to make sure - I just arrowed up - to make sure now that I fixed that trailing space it didn't show me any more errors so that's a good thing. The next thing that I'm gonna do is I'm gonna run the `pytest sklearn` test. Now I made a documentation change and I don't expect there to be any errors but this is an example where it shows you I'm running the suite of pytests for sklearn just to see what the output looks like.
+Entonces, lo que está haciendo es pasar por todas los test que se crean y solo
+asegurarse de que ninguno de los cambios que hice tenga un impacto adverso en
+ninguno de ellos. [PAUSA] Muy bien, parece que una de las pruebas no pasó. Hice
+un cambio de documentación y, ocasionalmente, algunas pruebas no pasan, pero no
+impactan; en realidad, dice que aquí se omite.
 
-So what this is doing is going through every test that's created and it's just making sure that none of the changes I made has an adverse impact on any of them. [PAUSE] Alright so it looks like one of the tests did not pass. I made a documentation change and occasionally some test doesn't pass but it doesn't impact - actually it says over here it gets skipped.
+### Enviando (push) al repositorio forkeado (15:50)
 
+Así que veamos qué pasa. Había hecho un git add, un git commit ahora voy
+a hacer un git push. Voy a hacer git push origin en mi remote y en el nombre de
+mi rama, que es ver dict learning (usa el comando: `git push origin
+doc_dictlearning`). Veamos qué pasa. Entonces ha enviado (push) a mi rama. Voy
+a ir a mi repositorio forkeado. Solo actualizo esta página y me dice que tengo
+un pull request que puedo comparar y enviar.
 
-### Pushing to the Forked Repo (15:50)
+### Preparando el Pull Request (16:05)
 
-So let's see what happens. I had done a git add, a git commit now I'm gonna do a git push. I'm gonna do git push origin is to my remote and to my branch name which is do see dict learning (uses command: `git push origin doc_dictlearning`). Let's see what happens. So it has pushed to my branch. I'm going to go over to my my forked repo. I just refresh this page and it tells me that I have a pull request that I can compare and submit.
+Así que voy a hacer clic en eso. Está bien y aquí es donde agrego un título
+significativo. De acuerdo, lo llamaré DOC porque es un arreglo de documentación
+y diré que limpia el docstring del parámetro en decomposition/_dict_learning.py
+y aquí es donde escribo algo de información. Y entonces voy a decir aquí que
+soy este PR hace referencia a la que hace referencia 1 5 7 - observe que se
+vincula automáticamente a los arreglos de documentación. Entonces puedo
+contener eso. Puedo borrar esto. Recuerda que no quiero cerrar aquí ni nada por
+el estilo. Voy a poner una descripción aquí que diga que actualicé la
+documentación del valor predeterminado para mantener la coherencia. Está bien
+y si lo he hecho, ¿tengo algún otro comentario? Lo que voy a hacer es asumir
+que trabajé con mi pareja de socios de programación, de acuerdo, así que ella
+también recibe las notificaciones y voy a asumir que es Miriam.
 
+De hecho, esta bien. Y solo quiero leer esto, me dice que es un equipo flexible
+de voluntarios, así que seamos pacientes al respecto. Lo he leído. Me
+agradecieron por contribuir, ¡genial! Y tengo la información aquí que también
+puedo obtener una vista previa aquí y me dice qué hace referencia a cuál. Me
+dice eso y aquí puedo: hago clic en permitir ediciones por parte de los
+mantenedores en caso de que sea necesario cambiar algo. Puedo pasar por aquí
+que me dice que esto es exactamente lo que cambié, cambié una línea, y la línea
+que cambié fue en lugar de mil, por defecto, es igual a mil, por lo que parece
+que todo está en orden. Voy a crear el pull request.
 
-### Preparing the Pull Request (16:05)
+### Pruebas de integración continua (19:30)
 
-So I'm gonna click on that. Okay and this is where I add a meaningful title. Okay and so I'm gonna call it DOC because it's a documentation fix and I'm gonna say cleaning parameter doc string in decomposition/_dict_learning.py and this is where I write some information. And so I'm gonna say here that I am this PR references it references 1 5 7 - notice it's automatically linking to - there you go - fix documentation. So I can hold that in. I can delete this. Remember I don't want to do closes here or anything like that. I'm gonna put a description here that says that I updated default value documentation for consistency. Okay and if I have - Do I have any other comments? What I'm gonna do is I'm gonna assume that I worked with of my pair programming partners - okay - so she also gets the notifications and I'm gonna, I'm gonna assume that it's Miriam.
+Bien, y ahora nota que estoy en el repositorio scikit learn y está ejecutando
+algunas comprobaciones aquí. Esto está en dorado, por lo que significa que
+todavía se está procesando allí. Voy a ir al repositorio. Voy a hacer clic en
+las solicitudes de extracción y esta es solo una forma de ver cuáles son los
+Pull Request que han enviado otras personas. Observe que está en verde. Tiene
+el DOC. Tiene el círculo. Voy a volver a analizarlo solo para ver qué está
+pasando. Hay un montón de comprobaciones aquí desde el progreso hasta
+pendiente, neutral o exitoso. A veces, si sabes, si la verificación falla,
+puede hacer clic en los detalles aquí. Este ha pasado, así que voy a abrirlo en
+otra pestaña para ver qué está pasando. Y da algo de información - inicia
+sesión en github - supongo que podría hacerlo más tarde. Y esto también puede
+llevar un poco de tiempo y, a veces, cuando estamos en un sprint, mucha gente
+está enviando solicitudes, lo que también lleva un poco más de tiempo. Veamos
+qué pasa si inicio sesión aquí. Iniciaré sesión en Circle CI. Voy a autorizar.
 
-I am actually - alright. And I just want to read this it tells me it's a loose team of volunteers so let's be patient about it. I have read it. They thanked me for contributing - great! And I have the information here I can also preview over here and it tells me what it references which one. It tells me that and here I can - I click on allow edits by maintainers in case something needs to be changed. I can go through here that tells me that this is exactly what I changed - I changed one line - and the line I change was instead of a thousand by default it's default equals a thousand so it looks like everything is in order.  I am going to create the pull request.
+Interesante. Muy bien, déjame hacer clic en estos detalles nuevamente y ver qué
+sucede. Esto es lo que quería. Cero errores y cero advertencias. De acuerdo,
+voy a volver aquí y solo miraré este de aquí. Y me dice que hay una prueba, una
+falla exitosa y, por lo tanto, esta es en realidad una buena manera, ya que
+estas pruebas se están ejecutando si fallan, puede hacer clic en estos detalles
+y obtener más información sobre por qué fallaron. Así que me detendré aquí
+y luego volveré a eso. [PAUSA]
 
-### Continuous Integration Tests (19:30)
+He vuelto. Estoy comprobando mi solicitud de extracción. ¡Parece que todos los
+controles han pasado, lo cual es genial! Solo para que sepas que la primera vez
+que hice estos Pull Requests no tuve tanta suerte. Pero sabe que si una de sus
+pruebas no pasa, puede abrir los detalles y buscar más - hacer clic - y buscar
+más información sobre lo que hay allí. A veces, recibirá un comentario de un
+revisor. Yo diría que esto tardó unos veinte minutos en ejecutarse, así que
+téngalo en cuenta cuando lo esté, cuando esté ejecutando, cuando esté enviando
+PRs. Y ese es un ejemplo de cómo enviar un PR con una simple, con un arreglo
+muy simple.
 
-Okay and now notice I'm at the scikit learn repo and it is running some checks right here. This is in gold so it means it's still processing right there. I'm going to go to the repo. I'm gonna click on pull requests and this is just a way to see what are the pull requests other people have submitted. Notice that it's in green. It has the DOC. It has the circle. I'm going to go back into it just to see what's happening. There's a bunch of checks here form progress to pending to neutral to one successful. Sometimes if you know, if the check fails, you can click on details here. This one has passed so I'm just going to open this up in another tab just to see what's going on. And it gives some information on - log into github -  I guess I could do that later. And this can also take a bit of time and sometimes when we're in a sprint a lot of people are submitting for requests it takes a little bit longer also. Let's see what happens if I log in here. I'll log into Circle CI. I'm going to authorize.
+### Resumiendo el proceso de PR (23:50)
 
-Interesting.  Alright, let me click on these details again and see what happens.  This is what I wanted. Zero errors and zero warnings. Okay, I'm going to come back here and I'm gonna just look at this one here. And it tells me that there's one test one successful fail and so this is actually a good way as these tests are being run if they fail, you can click on these details and get more information about why they failed. So I am going to stop right here and then come back to it. [PAUSE]
+Así que solo quiero repasar el Pull Request. Entonces, lo que desea hacer para
+comenzar es asegurarse de tener la configuración de entorno correcta. Anaconda
+siempre es bueno para usar. Python y git están instalados. Quieres configurar
+tu entorno virtual. Quieres forkear y clonar y crear una rama. Quieres realizar
+una actualización de un archivo comenzando con una pequeña corrección en la
+documentación y luego pasar gradualmente a la edición de código. Ejecutando la
+prueba y enviar un Pull Request.
 
-So I am back. I am checking to see my pull request. It looks like all checks have passed which is great! Just so that you know the first time I did these PRs I did not get so lucky. But you know if one of your tests doesn't pass you can open up the details and look for more - click through - and look for more information about what's in there. Sometimes you'll have a comment back from a reviewer. I would say this took a good twenty or so minutes to run so keep that in mind when you are, when you are running, when you're submitting PRS.  And so that is an example of how to submit a PR with a simple, with a very simple fix.
+### Errores que cometí (24:20)
 
-### Summarizing the PR Process (23:50)
+Sabes que cuando configuras tu entorno virtual o en algún punto del camino, es
+muy probable que te encuentres con fallas. Ciertamente lo hice. Y entonces,
+depende de su configuración y del sistema operativo que esté utilizando y de
+las versiones de las bibliotecas que tenga. Y muchas, muchas dependencias.
+Entonces, hay varias formas de resolver estos problemas técnicos. Si te
+encuentras con un error, puedes buscarlo en Google para ver qué información
+hay. Es probable que otras personas también se hayan encontrado con ese error.
+Si se encuentra en un entorno estructurado como este sprint de código abierto
+ahora, puede solucionar problemas con su socio de programación par. Todos
+vienen con antecedentes y experiencias diferentes. Y sabes que si necesitas
+ayuda, la tenemos, quiero decir, esta es la razón por la que tenemos este
+sprint. Tenemos nuestra cola de ayuda en Discord y puedes preguntarle a uno de
+los mentores en el sprint y alguien te ayudará.
 
-And so I just want to go over the pull request. So what you want to do to get started you want to make sure that you have your right environment setup.  Anaconda is always good to use. Python and git are installed.  You want to setup your virtual environment.  You want to fork and clone and create a branch. You want to make an update to a file starting off with a small fix in documentation and then gradually moving on to editing some code. Running the test and submitting a pull request.
+Así que solo quiero repasar algunos errores comunes que he cometido a lo largo
+del camino. ¿Sabes qué? Lo más probable es que dejes esto en el sprint y luego
+el trabajo de seguimiento vendrá más tarde. Y para volver a trabajar, solo
+quiero asegurarme, ya sabes, ¿estoy en mi entorno virtual? A veces, en
+realidad, no entro en mi entorno virtual y ejecuto pruebas. Y me encuentro con
+todos estos errores y eso siempre es importante.
 
-### Mistakes I Have Made (24:20)
+Siempre me aseguro de estar en la rama adecuada que también puede ser una causa
+de problemas. Me aseguro de sincronizar mi repositorio con sklearn. Si regresas
+y, ya sabes, trabajas en tu PR tres días, una semana, dos semanas después,
+habrá actualizaciones que se han realizado en sklearn y solo debes asegurarte
+de que tiene las últimas actualizaciones en su computadora local. Y solo tienes
+que asegurarte de haber realizado la prueba. Asegúrate de haber ejecutado las
+pruebas flake8 y también las pytests.
 
-You know when you set up your virtual environment or somewhere along the way, you are most likely going to run into glitches.  I certainly did.  And so and it depends on your setup and what operating system you're using and what versions of libraries you have.  And a lot of, a lot of dependencies. And so there's various ways to resolve these glitches.  If you run into an error you can google it to see what information's out there.  Chances are other people have also run into that error.  If you're in a structured environment like this open source sprint now, you can troubleshoot with your pair programming partner. Everybody comes in with a different background and experience. And you know if you need assistance we have, I mean this is the reason we have this sprint.  We have our help queue on the discord and you can ask one of the mentors at the sprint and somebody will help you.
+### Gracias
 
-So I just want to go over some common mistakes that I have made along the way.  You know what, chances are you're going to leave this the sprint and then the follow-up work is going to come later. And so as I would go back to do work, I just want to make sure, you know, like am I in my virtual environment?  Sometimes I actually don't go into my virtual environment and I run tests. And I run into all these errors and so that's always important.
-
-I always make sure that I'm in the appropriate branch that can be a cause of problems too.  I make sure that I sync my repo with sklearn.  If you go back and, you know, work on your PR three days, one week, two weeks later, there are going to be updates that have been made to sklearn and you just want to make sure that you have the latest updates on your local computer.  And you just want to make sure that you've run the test.  Make sure that you've run the flake8 tests and the pytests as well.
-
-### Thank You
-
-And thank you for joining.  I look forward to looking at the PRs and answering any questions on discord or on Gitter or wherever.  Thanks for joining. Bye!
+Y gracias por unirse. Espero ver los PRs y responder cualquier pregunta en
+Discord o en Gitter o donde sea. Gracias por unirte. ¡Chau!
