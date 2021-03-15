@@ -9,9 +9,9 @@
 > 1.  Melissa Weber:  [Intro to Sphinx](https://youtu.be/tXWscUSYdBs)
 
 <p float="left">
- <a href="https://www.dataumbrella.org" target="_blank"> <img src="images/full logo-transparent copy.png" height="40%" width="40%" /> </a>
+ <a href="https://www.dataumbrella.org" target="_blank"> <img src="../images/full logo-transparent copy.png" height="40%" width="40%" /> </a>
   <img  width="150" />
-   <a href="https://github.com/scikit-learn" target="_blank"> <img src="images/scikit-learn-logo-notext.png" width="15%" height="20%" />  </a>
+   <a href="https://github.com/scikit-learn" target="_blank"> <img src="../images/scikit-learn-logo-notext.png" width="15%" height="20%" />  </a>
 </p>
 
 # Data Umbrella: scikit-learn sprint
