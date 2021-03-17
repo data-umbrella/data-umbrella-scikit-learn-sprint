@@ -16,7 +16,8 @@ See the [Sprint Website](https://afme2021.dataumbrella.org) for:
 
 
 ## Event Info
-- **06-Feb-20201* (Saturday); 10am to 2pm EAT (event is online)
+- Next Sprint:  To be announced
+- [Past Sprints](https://www.dataumbrella.org/open-source/sprints)
 
 ## PREPARATION
 
