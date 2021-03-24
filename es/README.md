@@ -25,7 +25,7 @@ Mira el [Sitio web del Sprint](https://afme2021.dataumbrella.org) para:
 
 
 ## Información del Evento
-- **06-Feb-20201* (Sábado); 10am to 2pm EAT (El evento es online)
+- To be announced
 
 ## PREPARACIÓN
 
