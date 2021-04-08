@@ -1,12 +1,12 @@
 <p float="left">
- <a href="https://www.dataumbrella.org"> <img src="images/full logo-transparent copy.png" height="40%" width="40%" /> </a>
+ <a href="https://www.dataumbrella.org"> <img src="../images/full logo-transparent copy.png" height="40%" width="40%" /> </a>
   <img  width="150" />
-   <a href="https://github.com/scikit-learn" target="_blank"> <img src="images/1280px-Scikit_learn_logo_small.svg.png" width="15%" height="15%" />  </a>
+   <a href="https://github.com/scikit-learn" target="_blank"> <img src="../images/1280px-Scikit_learn_logo_small.svg.png" width="15%" height="15%" />  </a>
 </p>
 
-# [Data Umbrella](https://www.dataumbrella.org): Crash Course para Contribuir com o [scikit-learn](https://github.com/scikit-learn)
+# [Data Umbrella](https://www.dataumbrella.org): Curso Rápido para Contribuir com o [scikit-learn](https://github.com/scikit-learn)
 
-## Video Transcript
+## Transcrição do Vídeo
 
 - Palestrante: [Andreas Mueller](https://twitter.com/amuellerml)
 - Vídeo: [Scikit-learn Sprint Instructions](https://youtu.be/5OL8XoMMOfA) (30 minutes)
@@ -22,40 +22,38 @@
 
 ## Vídeo
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="images/sklearn_video1.png" width="90%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="../images/sklearn_video1.png" width="90%" /></a>
 
 ---
 
 ### Slide 1: Introdução (0:00)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="images/sklearn_video1.png" width="50%" /></a>
-
-Hey everybody, so this is an instruction video on how to contribute to open source projects, in particular to scikit-learn. I'm Andreas Mueller, one of the core developers of the scikit-learn project. Thanks for Reshama and Data Umbrella for organizing this sprint. So, I really want to give you just a very brief overview of the technology behind contributing to open source and the steps of getting your first contributions in.
+<a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="../images/sklearn_video1.png" width="50%" /></a>
 
 Olá, pessoal! Então, este é um vídeo introdutório sobre como contribuir para projetos de código aberto, especialmente para o scikit-learn. Meu nome é Andreas Mueller, um dos desenvolvedores principais do scikit-learn. Graças à Reshama ao Data Umbrella por organizar esta sprint. Então, eu almejo mostrar a vocês uma breve visão geral da tecnologia por detrás da contribuição ao código aberto e os primeiros passos para inserir suas contribuições.
 
 ### Slide 2: Instruções para o Sklearn (0:40)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=40" target="_blank"><img  src="images/sklearn_video2.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=40" target="_blank"><img  src="../images/sklearn_video2.png" width="50%" /></a>
 
 Então, primeiramente, uma ótima forma de se comunicar outros desenvolvedores é através do canal do Gitter [gitter.im/scikit-learn](https://gitter.im/scikit-learn). Para a sprint há um canal chamado "sprint": [gitter.im/scikit-learn/sprint](https://gitter.im/scikit-learn/sprint). E também existe um canal scikit-learn é para assuntos gerais: [gitter.im/scikit-learn/scikit-learn](https://gitter.im/scikit-learn/scikit-learn). Durante a sprint nós também usaremos o Discord e ao longo da sprint talvez seja a melhor forma para se comunicar. Porém, ao final da sprint, os desenvolvedores principais não permanecerão no Discord, mas você sempre pode entrar em contato no Gitter para tirar dúvidas.
 
 ### Slide 3: Razões para Contribuir (1:24)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=84" target="_blank"><img  src="images/sklearn_video3.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=84" target="_blank"><img  src="../images/sklearn_video3.png" width="50%" /></a>
 
 Então, você já se juntou a nós e, ou pelo menos está vendo este vídeo. Portanto, espero que você já esteja altamente motivado para começar a contribuir. Ainda assim, quero rever algumas razões pelas quais você talvez queira contribuir. Para muitas pessoas, trata-se de retribuir aos projetos que já estão utilizando. Portanto, os usuários dos projetos são geralmente os melhores colaboradores. E assim espero que os projetos de código aberto já o tenham ajudado em sua jornada de codificação e em seu trabalho e assim por diante. E contribuir de volta é uma ótima maneira de retribuir à comunidade. Também lhe dá uma grande oportunidade de aprender com as outras pessoas envolvidas em um projeto que muitas vezes são desenvolvedores seniores, o que lhe dará feedback sobre o estilo de codificação e também sobre como usar os diferentes projetos e como interagir. Ele também permite que você aborde questões.
 que sempre o incomodaram sobre biblioteca, como consertar coisas, consertar documentação e apenas tornar os projetos melhores.
 
 ### Slide 4: Razões para Contribuir (2:33)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=153" target="_blank"><img  src="images/sklearn_s4.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=153" target="_blank"><img  src="../images/sklearn_s4.png" width="50%" /></a>
 
 Além disso, você se poderá se familiarizar mais com as ferramentas da ciência dos dados se estiver contribuindo diretamente para projetos. Definitivamente contribuir com o código aberto também pode ser útil na busca de empregos, embora se esta for sua única motivação, pode não funcionar tão bem porque o código aberto é realmente sobre a comunidade. E a menos que você esteja realmente interessado no projeto, provavelmente não será capaz de ficar por muito tempo. Portanto, o que realmente nos interessa é devolver seus projetos, interagir com os outros colaboradores e apenas se divertir trabalhando nos projetos.
 
 ### Slide 5: Configurar o ambiente Python (3:16)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=196" target="_blank"><img  src="images/sklearn_s5.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=196" target="_blank"><img  src="../images/sklearn_s5.png" width="50%" /></a>
 
 Portanto, agora vamos à parte técnica. Portanto, primeiro queremos falar sobre a montagem. Se você quer desenvolver um projeto Python, obviamente precisa primeiro ter uma instalação local. E assim, se você já tem um ambiente Python funcionando, tudo bem. Caso contrário, eu diria que basta instalar o Anaconda. Geralmente é a maneira mais fácil de se fazer isso. Se você já tem um ambiente de trabalho, certifique-se de não estar usando o sistema Python no OS X, mas que você está usando um ambiente separado para fazer seu desenvolvimento dentro. Se você já tem uma instalação Anaconda, basta criar um ambiente virtual separado para o sprint.
 
@@ -71,13 +69,13 @@ Então, se você quiser trabalhar com documentação, você também precisa inst
 
 ### Slide 6: Dar fork (garfo) no projeto sklearn no GitHub (4:57)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=297" target="_blank"><img  src="images/sklearn_s6.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=297" target="_blank"><img  src="../images/sklearn_s6.png" width="50%" /></a>
 
 Muito bem, então agora você tem seu ambiente python configurado. Você tem um ambiente separado para o desenvolvimento de scikit-learn. Agora você terá a mais nova versão de desenvolvimento de scikit-learn. Para fazer isso, primeiro você vai ao repositório principal de scikit-learn github.com slash scikit-learn, slash scikit-learn:[github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)e você vai criar um fork (garfo). O fork é basicamente sua própria cópia pessoal do repositório no GitHub.
 
 ### Slide 7: Clonando o Fork (5:26)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=326" target="_blank"><img  src="images/sklearn_s7.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=326" target="_blank"><img  src="../images/sklearn_s7.png" width="50%" /></a>
 
 Você pode fazer isso clicando no botão do garfo na parte superior, aqui mesmo. Isto criará seu fork pessoal e o levará até lá. Assim, você pode ver aqui em cima à esquerda este é meu fork, amueller barra scikit-learn. _Amueller_ é o meu handle (cabo) GitHub, então você terá seu handle (cabo) GitHub ali. E você pode ver que é um fork (garfo) de scikit-learn slash scikit-learn, o repositório principal.
 
@@ -86,7 +84,7 @@ https://github.com/amueller/scikit-learn.git
 
 ### Slide 8: Construindo e rodando os testes (7:25)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=443" target="_blank"><img  src="images/sklearn_s8.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=443" target="_blank"><img  src="../images/sklearn_s8.png" width="50%" /></a>
 
 Muito bem, então agora você tem sua cópia local da versão de desenvolvimento do Scikit-learn e agora queremos instalá-la. Portanto, queremos construí-la e instalá-la. E a maneira mais fácil é ir para a pasta que você acabou de clonar e fazer a instalação do pip - e ponto: `pip install -e .` Isto faz uma instalação que faz o edifício e vamos adicioná-lo ao seu caminho Python. O - e torna-a uma instalação edible, editável (não edible), em uma instalação editável. O que significa que se você alterar os arquivos nesta pasta, ela será automaticamente refletida em sua instalação. Isto irá sobrescrever as instalações existentes, portanto, certifique-se de que você não tenha uma instalação de scikit-learn. Portanto, assegure-se de fazer `conda desinstalar o scikit-learn` neste ambiente se você o instalou acidentalmente mais cedo.
 
@@ -96,7 +94,7 @@ Se você estiver no Windows para instalá-lo, você precisará de um compilador 
 
 ### Slide 9: Começando em Issues (Assuntos) (8:50)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=530" target="_blank"><img  src="images/sklearn_s9.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=530" target="_blank"><img  src="../images/sklearn_s9.png" width="50%" /></a>
 
 Agora você terá que escolher uma issue para começar a trabalhar. Portanto, falarei um pouco mais sobre isto mais tarde, mas selecionamos algumas das questões, então talvez seja mais fácil escolher uma delas. Você encontrará uma URL aqui. Espero que você baixe os slides para não ter que digitar tudo isso. Depois comente sobre o assunto, diga "Estou trabalhando nisto" ou há também um comando agora onde você pode simplesmente dizer "take" e o bot atribuirá o assunto a você. Antes de começar a trabalhar, certifique-se de ter a versão mais atual do master upstream, portanto, fora do repositório principal. Você pode fazer isso fazendo `git pull upstream master`. É por isso que adicionamos o repositório upstream mais cedo.
 
@@ -108,7 +106,7 @@ Se você quiser começar a partir de um pull request de outra pessoa, onde ela j
 
 ### Slide 10: Começando em Issues (9:59)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=600" target="_blank"><img  src="images/sklearn_s10.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=600" target="_blank"><img  src="../images/sklearn_s10.png" width="50%" /></a>
 
 Portanto, antes de começar a programar, você quer criar uma nova branch para seu recurso. Você pode fazer isso fazendo o git checkout traço b (`git checkout -b <branchname>` ) e depois um nome para sua branch.
 
@@ -118,13 +116,13 @@ Então você fez suas mudanças. Falaremos um pouco mais detalhadamente sobre is
 
 ### Slide 11: Criando um PR (11:20)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=680" target="_blank"><img  src="images/sklearn_s11.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=680" target="_blank"><img  src="../images/sklearn_s11.png" width="50%" /></a>
 
 Então agora, digamos que você conserte as issues que deseja consertar. Você os comprometeu localmente em sua filial e você faz os testes e corre osflake8 e tudo passa. Então você pode dar push nas mudanças que fez localmente para seu repositório GitHub usando o git push origin e depois o nome de sua branch. Isto o empurrou para seu fork, portanto para sua cópia pessoal do Scikit-learn no GitHub. Então, para colocá-lo no repositório principal, você faz o que é chamado de "pull request", que basicamente pede aos desenvolvedores que levem suas mudanças e as integrem no repositório principal. Você pode criar um pull request, indo para o repositório principal scikit-learn barra scikit-learn, e se você pressionar para seu repositório, você verá este botão verde aqui dizendo comparar e dar pull request.
 
 ### Slide 12: Describing PR (12:17)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=739" target="_blank"><img  src="images/sklearn_s12.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=739" target="_blank"><img  src="../images/sklearn_s12.png" width="50%" /></a>
 
 Assim, isto o levará a uma interface onde você pode criar um pull request. Ela preencherá automaticamente as coisas aqui no topo que basicamente dirão do seu fork, sua branch, que você quer fazer um pull request para a branch main/master do Scikit-learn. Mas isso normalmente será preenchido automaticamente para você. O que você tem que fazer é primeiro dar-lhe um título. Se você quiser, você pode prefaciar o título por MRG, se você acha que seu trabalho está pronto para ser revisado e fundido. Ou WIP, se você acha que é um trabalho em andamento, o que significa que você ainda precisa querer fazer algumas mudanças. Você só quer mostrar o trabalho que fez até agora. Você normalmente quer dar a isto um nome descritivo, para que alguém possa ler e saiba exatamente no que você está trabalhando. Portanto, lembre-se que o scikit-learn é grande e, portanto, se você diz mudança no atributo de uma classe, e você não diz em qual modelo está, isto pode não ser útil. Portanto, seja preciso e específico, mas não se estenda demais. Se você se referir a uma issue que você está corrigindo no título, GitHub na verdade não irá vinculá-lo. Mas por isso é muito importante que você faça referência a qualquer issue que você esteja consertando ou que você a escreva ou qualquer pull request que você esteja prestes a realizar, na descrição do pull request. Portanto, aqui, você quer dizer "conserta issue x". Há algumas palavras mágicas no GitHub que significam que se você disser "Fix x" ou "Close x", e então o pull request é fundido, GitHub fechará automaticamente como um pull request. Portanto, se você estiver consertando completamente algo que é um problema, diga "Fix this issue" e então os pull requests serão automaticamente fechados. Se você está consertando apenas parte de um issue, ou se seu issue tem como muitas pequenas partes, e você está fazendo uma delas, por favor, não diga "conserta o issue" ou "fecha o issue" porque então se sua coisa for mesclada (merge), o GitHub fechará automaticamente todo o issue para todos. E então para alguém mais reabri-la [a issue] se ela estiver atual. Portanto, use o número da issue de conserto, mas somente quando for apropriado e definitivamente mencionar qualquer issue ou pull request.
 
@@ -132,7 +130,7 @@ Assim, isto o levará a uma interface onde você pode criar um pull request. Ela
 
 ### Slide 13: Testes de Regressão (14:45)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=887" target="_blank"><img  src="images/sklearn_s13.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=887" target="_blank"><img  src="../images/sklearn_s13.png" width="50%" /></a>
 
 AMuito bem, então digamos que você abriu seu pull request. Então, na parte inferior, você verá a suíte de integração contínua [CI] funcionando. Portanto, os diagramas serão um pouco diferentes hoje em dia, porque estamos usando principalmente pipelines da Azure. E assim você quer que todos estes checkboxes estejam verdes. Caso contrário, você pode clicar nos detalhes e isso lhe dirá o porquê do teste estar falhando. E isto lhe dirá, esperançosamente, o que você precisa abordar. Se isto não estiver claro para você, basta fazer uma pergunta sobre o pull request ou sobre o issue tracker (rastreador de problemas) em qualquer lugar e as pessoas ficarão felizes em ajudá-lo a esclarecer o que é que você precisa consertar para que um teste seja aprovado.
 
@@ -140,7 +138,7 @@ Também não é suficiente que os testes que estavam lá antes de seu código se
 
 ### Slide 14: O que vem a seguir? (16:15)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=975" target="_blank"><img  src="images/sklearn_s14.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=975" target="_blank"><img  src="../images/sklearn_s14.png" width="50%" /></a>
 
 Muito bem, então digamos que você editou seus testes. Todos os testes passaram. Tudo lindo. O que vem a seguir? Então você provavelmente receberá revisores dos core developers (desenvolvedores do núcleo). Pode levar algum tempo, particularmente durante a sprint, porque as pessoas estão bastante ocupadas. Normalmente, os revisores terão comentários. É muito incomum que alguém diga "oh seu pull request é ótimo, podemos simplesmente dar merge nele". A revisão do pull request é uma parte muito, muito importante do código aberto, e é a principal forma de discutir novas funcionalidades. Portanto, não fique desapontado se alguém disser "bem, eu realmente acho que devemos fazer desta ou daquela maneira". Esta é realmente a principal forma de comunicação dos desenvolvedores. E assim não é como se eles estivessem rejeitando seus pull requests. Basicamente, todos os pull requests passam por mudanças.
 
@@ -150,7 +148,7 @@ Mas eu acho que hoje em dia normalmente usamos o recurso de aprovação do GitHu
 
 ### Slide 15: Encontrando Issues (18:52 )
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=1132" target="_blank"><img  src="images/sklearn_s15.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1132" target="_blank"><img  src="../images/sklearn_s15.png" width="50%" /></a>
 
 Um aspecto que eu acho bastante importante é encontrar issues para trabalhar. Portanto, o ideal é encontrar algo em que você esteja interessado, mas também deve começar com algo que seja realmente, realmente simples. Se esta é sua primeira contribuição de código aberto ou mesmo se é sua primeira contribuição para o projeto Scikit-learn; mesmo se você já contribuiu para outros projetos antes, _realmente_ comece com algo super simples. Como você deve ter notado, há muito processo para tudo isso como trabalhar com Git, trabalhar com a integração contínua (CI) trabalhando com os revisores, e assim por diante. E assim, mesmo que seja apenas uma única mudança de código de linha ou uma única mudança de documentação de linha, pode ser realmente útil. E é importante fazer uma pequena coisa para se atualizar e conseguir a fusão. Antes de atacar qualquer coisa grande, ainda faça algo simples primeiro.
 
@@ -168,7 +166,7 @@ Nesta e em qualquer outra comunicação sobre o rastreador de issue, é claro, s
 
 ### Slide 16: Revisando (22:22)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=1342" target="_blank"><img  src="images/sklearn_s16.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1342" target="_blank"><img  src="../images/sklearn_s16.png" width="50%" /></a>
 
 Você também pode começar a revisar. Em particular, a revisão de pull requests ou de issues abertas por outras pessoas no sprint pode ser útil porque normalmente estão em um nível mais introdutório. Mas você pode tentar revisar quaisquer pull requests. A revisão de issues pode ser um pouco mais simples. Portanto, se você quiser verificar um problema, você pode procurar:
 
@@ -185,7 +183,7 @@ Você também pode revisar os pull requests para verificar se eles estão claros
 
 ### Slide 17: Lembretes do Fluxo de Trabalho (25:25)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=1524" target="_blank"><img  src="images/sklearn_s17.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1524" target="_blank"><img  src="../images/sklearn_s17.png" width="50%" /></a>
 
 Um par de coisas sobre o fluxo de trabalho durante a sprint. Portanto, você é altamente encorajado a fazer programação em pares. Acho que é muito mais divertido e você pode fazer muito mais durante a programação em pares. Desta vez, será programação de pares remota usando o Discord. Talvez não seja tão bom quanto fazer programação em pares pessoalmente, mas acho que ainda é muito divertido. Se você estiver fazendo um pull request ou criando uma issue apenas @ mencione a outra pessoa que está trabalhando nisso para que todos eles recebam um ping em seus e-mails. Certifique-se de acompanhar o seu trabalho. Portanto, espere que haja muita conversa e discussão e, portanto, certifique-se de que você pegue todas as críticas que receber sobre seus pull requests. E realmente é importante pedir ao projeto para que você realmente consiga dar merge nas suas contribuições e assim realmente tente obter um acompanhamento durante a sprint, mas também idealmente um acompanhamento após a sprint. Realmente o que mais gostamos é encontrar novos colaboradores que continuem voltando para o projeto e continuem voltando a contribuir. Será mais fácil e mais satisfatório contribuir para o projeto quanto mais você se envolver e mais familiarizado você se tornar.
 
@@ -195,7 +193,7 @@ Portanto, provavelmente tentaremos fazer alguns eventos de acompanhamento para a
 
 ### Slide 18: Lembretes do Fluxo de Trabalho (27:44)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=1666" target="_blank"><img  src="images/sklearn_s18.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1666" target="_blank"><img  src="../images/sklearn_s18.png" width="50%" /></a>
 
 Por isso eu disse que talvez haja algumas coisas a fazer que você não pode terminar durante a sprint. É realmente ótimo se você puder acompanhar e fazer com que seus pull request sejam fundidos. Então o pull request e o GitHub é realmente a melhor maneira de se comunicar e esta é uma discussão pública onde todos os desenvolvedores principais ou qualquer outra pessoa na internet podem responder perguntas e ajudar. E como eu disse antes, usaremos o Discord durante a sprint, mas os desenvolvedores do núcleo provavelmente não estarão presentes no Discord a maior parte do tempo após a sprint. Portanto, uma boa idéia é ir no canal sprint do Scikit-learn ou apenas no canal geral do Scikit-learn ou apenas conversar sobre as issues e pull requests.
 
@@ -203,12 +201,12 @@ Portanto, realmente estamos enfatizando que é uma boa idéia começar com algo 
 
 ### Slide 19: Considerações Finais (29:00)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=1709" target="_blank"><img  src="images/sklearn_s19.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1709" target="_blank"><img  src="../images/sklearn_s19.png" width="50%" /></a>
 
 Sim, então se você quiser acrescentar uma característica importante ao scikit-learn, isso provavelmente não é algo que você possa fazer em um dia. Adicionar um novo modelo ao scikit-learn é normalmente algo que leva muitos meses e não é algo que você deve tentar fazer no início. Portanto, comece realmente com algo simples e depois talvez se você receber seus dois primeiros pull requests e puder trabalhar para adicionar como um recurso menor, mas não conte em adicionar um recurso grande tão cedo. Isso porque scikit-learn já é uma biblioteca bastante madura e por isso está se movendo muito lentamente. E por isso é difícil adicionar algo grande ou fazer grandes mudanças. Também pode haver muitas questões interessantes que não estão devidamente marcadas. Portanto, se você estiver interessado em um tópico em particular, basta pesquisar o tópico no rastreador das issues ou nos pull requests e ver se há algo interessante acontecendo lá.
 
 ### Slide 20: Obrigado (29:59)
 
-<a href="https://youtu.be/5OL8XoMMOfA?t=1797" target="_blank"><img  src="images/sklearn_s20.png" width="50%" /></a>
+<a href="https://youtu.be/5OL8XoMMOfA?t=1797" target="_blank"><img  src="../images/sklearn_s20.png" width="50%" /></a>
 
 Portanto, com isto quero dizer que aproveitem o sprint e obrigado a todos pela ajuda e espero que se divirtam muito. Vocês aprenderão muito trabalhando em conjunto com seu parceiro de sprint. E espero que voltem para mais sprints ou simplesmente continuem a se engajar no rastreador de issues. Muito obrigado!
