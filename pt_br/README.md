@@ -8,11 +8,11 @@
 
 # Data Umbrella: scikit-learn sprint
 
-[EN](../) | [ES](es/) | PT-BR
+EN | [ES](es/) | [PT](pt_br/)
 
 ## Links Principais
 
-Confira o [Website para a Sprint](https://afme2021.dataumbrella.org) para:
+Confira [Website para a Sprint](https://afme2021.dataumbrella.org) para:
 
 - [Pré-requisitos](https://afme2021.dataumbrella.org/about/prep-work)
 - [Código de Conduta](https://www.dataumbrella.org/about/code-of-conduct)
@@ -27,7 +27,7 @@ Confira o [Website para a Sprint](https://afme2021.dataumbrella.org) para:
 ### 1. Conta no GitHub
 
 - Crie uma conta no [GitHub](https://github.com/)
-- [O Git deverá ter sido instalado](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [O Git deverá ser instalado](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - Já familiarizado / GitHub; Antes do evento, revisem alguns [recursos do Git](https://github.com/reshamas/git-intro-workshop/blob/master/extra_resources/resource_git_tutorials.md)
 
 ### 2. Entre no [Gitter](https://gitter.im)

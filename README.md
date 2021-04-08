@@ -6,9 +6,7 @@
 
 # Data Umbrella: scikit-learn sprint
 
-EN | [ES](es/) | [PT-BR](pt_br/)
-
-<!-- Please rename the por folder to ptBR due to some language diffs to european and african portuguese -->
+EN | [ES](es/) | [PT_BR](pt_br/)
 
 ## Key Links
 
