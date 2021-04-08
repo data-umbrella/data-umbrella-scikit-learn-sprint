@@ -7,7 +7,7 @@
 
 # Data Umbrella: scikit-learn sprint
 
-EN | [ES](es/)
+EN | [ES](es/) | [PT](por/)
 
 ## Key Links
 See the [Sprint Website](https://afme2021.dataumbrella.org) for:
