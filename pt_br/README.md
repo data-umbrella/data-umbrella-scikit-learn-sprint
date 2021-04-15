@@ -12,7 +12,7 @@ EN | [ES](es/) | [PT](pt_br/)
 
 ## Links Principais
 
-Confira [Website para a Sprint](https://afme2021.dataumbrella.org) para:
+Confira o [Website para a Sprint](https://afme2021.dataumbrella.org) para:
 
 - [Pré-requisitos](https://afme2021.dataumbrella.org/about/prep-work)
 - [Código de Conduta](https://www.dataumbrella.org/about/code-of-conduct)
