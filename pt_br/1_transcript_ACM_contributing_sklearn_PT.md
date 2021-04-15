@@ -9,7 +9,7 @@
 ## Transcrição do Vídeo
 
 - Palestrante: [Andreas Mueller](https://twitter.com/amuellerml)
-- Vídeo: [Scikit-learn Sprint Instructions](https://youtu.be/5OL8XoMMOfA) (30 minutes)
+- Vídeo: [Scikit-learn Sprint Instructions](https://youtu.be/5OL8XoMMOfA) (30 minutos)
 - Slides da apresentação (em PDF): [Crash Course in Contributing to Open Source Projects](https://github.com/data-umbrella/2020-sklearn-sprint/blob/master/data-umbrella-sprint-intro.pdf)
 - Transcritor: [Reshama Shaikh](https://twitter.com/reshamas)
 
