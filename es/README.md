@@ -17,7 +17,7 @@
 
 # Data Umbrella: scikit-learn sprint
 
-[EN](../) | ES
+[EN](../README.md) | ES
 
 ## Enlaces principales
 
