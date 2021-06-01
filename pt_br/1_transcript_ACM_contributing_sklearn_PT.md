@@ -20,6 +20,10 @@
 - **[Fluxo de comandos para contribuição](contributing/workflow.md)** (Configuração do ambiente, repositório, submissão de Pull Requests)
 - [Documentação para Contribuições para Scikit-learn](http://scikit-learn.org/stable/developers/contributing.html)
 
+## Video Updates (not `master`, but `main`)
+
+<a href="https://scikit-learn.org/dev/developers/contributing.html"><img src="../images/master_main.png" width="90%" style="padding:1px;border:thick solid red;" align="top"/></a>
+
 ## Vídeo
 
 <a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="../images/sklearn_video1.png" width="90%" /></a>
