@@ -21,7 +21,7 @@
 
 ## Video Updates
 
-<a href="https://scikit-learn.org/dev/developers/contributing.html"><img src="images/master_main.png" width="50%" /></a>
+<a href="https://scikit-learn.org/dev/developers/contributing.html"><img src="images/master_main.png" width="90%" style="padding:1px;border:thick solid red;" align="top"/></a>
 
 
 
