@@ -177,10 +177,10 @@ cd scikit-learn
 conda activate sklearndev
 ```
 
-### 3.  Sync repo before beginning work (`master` branch)
+### 3.  Sync repo before beginning work (~~`master`~~ `main` branch)
 ```bash
-git pull upstream master
-git push origin master
+git pull upstream main
+git push origin main
 ```
 
 ### 4.  Switch to working branch  
@@ -190,7 +190,7 @@ git checkout feature_branch
 
 ### 5. Update working branch files
 ``` 
-git pull upstream master
+git pull upstream main
 git push origin feature_branch
 ```
 
