@@ -19,6 +19,12 @@
 - **[Contributing Workflow Commands](contributing/workflow.md)** (environment set-up, repo, submitting PR)
 - [Scikit-learn Contributing Documentation](http://scikit-learn.org/stable/developers/contributing.html)
 
+## Video Updates
+
+<a href="https://scikit-learn.org/dev/developers/contributing.html"><img src="images/master_main.png" width="50%" /></a>
+
+
+
 ## Video
 <a href="https://youtu.be/5OL8XoMMOfA?t=1"><img src="images/sklearn_video1.png" width="90%" /></a>
 
