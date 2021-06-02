@@ -10,14 +10,13 @@ EN | [ES](es/) | [PT_BR](pt_br/)
 
 ## Key Links
 
-See the [Sprint Website](https://afme2021.dataumbrella.org) for:
+See the [Sprint Website](https://latam2021.dataumbrella.org) for:
 
-- [Prerequisites](https://afme2021.dataumbrella.org/about/prep-work)
+- [Prerequisites](https://latam2021.dataumbrella.org/about/prep-work)
 - [Code of Conduct](https://www.dataumbrella.org/about/code-of-conduct)
 
 ## Event Info
 
-- Next Sprint: To be announced
 - [Past Sprints](https://www.dataumbrella.org/open-source/sprints)
 
 ## PREPARATION
@@ -42,7 +41,7 @@ Join the scikit-learn Gitter community
 - Andreas Mueller: scikit-learn Sprint Instructions (30 minutes)
 - Reshama Shaikh: Example of Submitting a Pull Request (30 minutes)
 - Andreas Mueller: Sprint Instructions Volume 2 (15 minutes)
-- Melissa Mendonça: Intro to Sphinx Documentation (xx minutes)
+- Melissa Mendonça: Intro to Sphinx Documentation (70 minutes)
 
 ### 4. Read thru [scikit-learn Contributing documentation](http://scikit-learn.org/stable/developers/contributing.html)
 
