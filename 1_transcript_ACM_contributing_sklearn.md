@@ -25,7 +25,7 @@
 <a href="https://scikit-learn.org/dev/developers/contributing.html"><img src="images/master_main.png" width="90%" style="padding:1px;border:thick solid red;" align="top"/></a>
 
 ### Setting up virtual environment
-Use these [instructions for setting up your virtual environment](not `master`, but `main`).  They are most up to date.  T
+Use these [instructions for setting up your virtual environment](https://scikit-learn.org/dev/developers/advanced_installation.html).  They are most up to date.  T
 
 
 ## Video
