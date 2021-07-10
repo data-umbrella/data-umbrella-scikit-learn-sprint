@@ -1,4 +1,5 @@
 # Crash Course in Contributing to Scikit-learn:  Workflow
+* [scikit-learn Contributing documentation](http://scikit-learn.org/stable/developers/contributing.html)
 
 PR = Pull Request  
 **Important Note:**  Please include **(#DataUmbrella)** in your PR commit message so we can track them. 
