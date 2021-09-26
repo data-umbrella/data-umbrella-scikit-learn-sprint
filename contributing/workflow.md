@@ -72,7 +72,7 @@ upstream	https://github.com/scikit-learn/scikit-learn.git (push)
 
 ### Update local repo
 ```bash
-git pull upstream master
+git pull upstream main
 ```
 
 ### To fetch (someone else's) PR:
@@ -237,13 +237,13 @@ This is what a **merged** icon looks like:
 
 ## Returning to work: reminder to sync repo before beginning work
 ```bash
-git pull upstream master
-git push origin master
+git pull upstream main
+git push origin main
 ```
 Switch to working branch  
 ``` 
 git checkout feature_branch
-git pull upstream master
+git pull upstream main
 git push origin feature_branch
 ```
 
