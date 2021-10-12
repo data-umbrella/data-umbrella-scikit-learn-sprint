@@ -23,3 +23,7 @@ pre-commit install
 ```bash
 pip install numpydoc Pillow pandas scikit-image packaging seaborn sphinx-prompt sphinxext-opengraph
 ```
+
+# Questions
+- ask about building documentation
+- 
