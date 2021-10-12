@@ -27,3 +27,6 @@ pip install numpydoc Pillow pandas scikit-image packaging seaborn sphinx-prompt 
 # Questions
 - ask about building documentation
 - ask about adding pair partner to get credit for commit
+
+1. have to have folder open already and then send request for person to join live share
+2. 
