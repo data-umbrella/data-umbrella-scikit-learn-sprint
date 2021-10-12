@@ -20,4 +20,6 @@ pre-commit install
 
 
 # For documentation
+```bash
 pip install numpydoc Pillow pandas scikit-image packaging seaborn sphinx-prompt sphinxext-opengraph
+```
