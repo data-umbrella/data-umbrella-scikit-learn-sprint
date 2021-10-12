@@ -1,3 +1,5 @@
+# Set up virtual environment
+
 ```bash
 # clonar repositorio de sklearn
 cd scikit-learn
@@ -15,3 +17,7 @@ pip install --no-build-isolation --editable .
 # allows us to run code style checks before each commit
 pre-commit install
 ```
+
+
+# For documentation
+pip install numpydoc Pillow pandas scikit-image packaging seaborn sphinx-prompt sphinxext-opengraph
