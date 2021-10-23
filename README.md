@@ -63,7 +63,7 @@ Please take photos and tweet about the event.
 - #ScikitLearnSprint
 - #opensource
 - [@DataUmbrella](https://twitter.com/DataUmbrella)
-- Twitter handles of [Organizers & Core Contributors](https://afme2021.dataumbrella.org/organizers)
+- Twitter handles of [Organizers & Core Contributors](https://afme2021rc.dataumbrella.org/organizers)
 
 ## Resource
 
