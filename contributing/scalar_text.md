@@ -6,6 +6,8 @@ This is an **intermediate-level** issue for second time contributors.
 
 ## Background / Objective
 
+References [#20724](https://github.com/scikit-learn/scikit-learn/issues/20724)
+
 A helper function exists in scikit-learn which validates a scalar value:  
 https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html
 
@@ -14,8 +16,6 @@ Utilizing this helper function will help to get consistent error types and messa
 ## Steps
 
 
-### Reference
-[#20724](https://github.com/scikit-learn/scikit-learn/issues/20724)
 
 ## Functions to Update
 - [x] `AdaBoostClassifer` [#21442](https://github.com/scikit-learn/scikit-learn/pull/21422)
