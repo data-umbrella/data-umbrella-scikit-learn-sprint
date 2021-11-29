@@ -24,3 +24,4 @@ Utilizing this helper function will help to get consistent error types and messa
 - [ ] `BaseGradientBoosting` [#21632](https://github.com/scikit-learn/scikit-learn/pull/21632)
 - [x] `birch`, `dbscan` [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
 - [x] `SpectralBiClustering`, `SpectralCoClustering` [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817)
+- [x] `linear_model.Ridge`[#21341](https://github.com/scikit-learn/scikit-learn/pull/21341)
