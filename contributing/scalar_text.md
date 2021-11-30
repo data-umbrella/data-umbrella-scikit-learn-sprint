@@ -15,7 +15,7 @@ Utilizing this helper function will help to get consistent error types and messa
 
 ## Steps
 
-Some instructions on adding scalar validation with `check_scalar` on classes, with #20723 from @glemaitre to illustrate with examples:
+Some instructions on adding scalar validation with `check_scalar` on classes
  
 1. **Look for classes with constructors having scalar numeric as parameters (e.g `int`, `float`) used to set attributes**, for instance [`dampling`, `max_iter`, and `convergence_iter` in `AffinityPropagation` are scalar parameters]( https://github.com/scikit-learn/scikit-learn/pull/20723/files#diff-62083de22888eadb572404f8f7255a19a74370eeaf2a893858b066d90ada979eL273-L285)  used [to set eponymous attributes in `AffinityPropagation`](https://github.com/scikit-learn/scikit-learn/pull/20723/files#diff-62083de22888eadb572404f8f7255a19a74370eeaf2a893858b066d90ada979eR404-R406)
 1. **Inspect if any of the associated class attributes aren't checked with `check_scalar`**, you can search in the file text for the attributes. For instance [associated attributes of `dampling`, `max_iter`, and `convergence_iter` in `AffinityPropagation` were not validated](https://github.com/scikit-learn/scikit-learn/pull/20723/files#diff-62083de22888eadb572404f8f7255a19a74370eeaf2a893858b066d90ada979eL458).
@@ -28,7 +28,7 @@ Feel free to ping us if you need help.
 ## Functions to Update
 - [x] `AdaBoostClassifer` [#21442](https://github.com/scikit-learn/scikit-learn/pull/21422)
 - [ ] `AdaBoostRegressor` [#21605](https://github.com/scikit-learn/scikit-learn/pull/21605)
-- [x] `AffinityPropagation` [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723)
+- [x] `AffinityPropagation` [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723) Example by @glemaitre
 - [ ] `BaseGradientBoosting` [#21632](https://github.com/scikit-learn/scikit-learn/pull/21632)
 - [x] `birch`, `dbscan` [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
 - [x] `SpectralBiClustering`, `SpectralCoClustering` [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817)
