@@ -8,8 +8,7 @@ This is an **intermediate-level** issue for second time contributors.
 
 References [#20724](https://github.com/scikit-learn/scikit-learn/issues/20724)
 
-A helper function exists in scikit-learn which validates a scalar value:  
-https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html
+A helper function exists in scikit-learn which validates a scalar value, [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html)
 
 Currently,.... inconsistent error messages, 
 
@@ -19,7 +18,11 @@ The function `check_scalar` is defined in [`scikit-learn/sklearn/utils/validatio
 Utilizing this helper function will help to get consistent error types and messages.
 
 ## Steps
+- [ ] Find a class with constuctors that have scalar numeric as parameters
+- [ ] Check scalar parameters with helper function
+- [ ] Add tests
 
+ 
 Some instructions on adding scalar validation with `check_scalar` on classes
  
 1. **Look for classes with constructors having scalar numeric as parameters (e.g `int`, `float`) used to set attributes**, for instance [`dampling`, `max_iter`, and `convergence_iter` in `AffinityPropagation` are scalar parameters]( https://github.com/scikit-learn/scikit-learn/pull/20723/files#diff-62083de22888eadb572404f8f7255a19a74370eeaf2a893858b066d90ada979eL273-L285)  used [to set eponymous attributes in `AffinityPropagation`](https://github.com/scikit-learn/scikit-learn/pull/20723/files#diff-62083de22888eadb572404f8f7255a19a74370eeaf2a893858b066d90ada979eR404-R406)
