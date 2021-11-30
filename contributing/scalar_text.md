@@ -41,7 +41,7 @@ Feel free to ping us if you need help.
 - [x] `sklearn/cluster/_dbscan.py`  [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
 
 ## Functions to Update
-- [ ] `AdaBoostRegressor`  [#21605](https://github.com/scikit-learn/scikit-learn/pull/21605)
+- [ ] `sklearn/ensemble/_weight_boosting.py` (`AdaBoostRegressor`)  [#21605](https://github.com/scikit-learn/scikit-learn/pull/21605)
 - [ ] `BaseGradientBoosting`  [#21632](https://github.com/scikit-learn/scikit-learn/pull/21632)
 - [ ] `SpectralBiClustering`, `SpectralCoClustering`  [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817)
 - [ ] `linear_model.Ridge`  [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341)
