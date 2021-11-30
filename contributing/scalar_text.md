@@ -28,8 +28,8 @@ Some instructions on adding scalar validation with `check_scalar` on classes
 1. **Add `check_scalar` calls where needed**. Generally, this is not done in the constructor but rather just before calling the core of the method. For instance, in the case of #20723, [@glemaitre added `check_scalar` calls just before the call to `affinity_propagation` which is the core of the method.](https://github.com/scikit-learn/scikit-learn/pull/20723/files#diff-62083de22888eadb572404f8f7255a19a74370eeaf2a893858b066d90ada979eR460-R475)
 
 ## Examples for Reference
-- [x] `sklearn/cluster/_affinity_propagation.py`  [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723) Example by @glemaitre
-- [ ] `sklearn/linear_model/_ridge.py`  [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341) Example by @ArturoAmorQ
+- [x] `sklearn/cluster/_affinity_propagation.py`  [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723) (@glemaitre)
+- [ ] `sklearn/linear_model/_ridge.py`  [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341) (@ArturoAmorQ)
 
 ## Classes Updated
 - [x] `sklearn/ensemble/_weight_boosting.py`
