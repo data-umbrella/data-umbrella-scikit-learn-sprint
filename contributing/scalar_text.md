@@ -43,8 +43,8 @@ Feel free to ping us if you need help.
 ## Functions to Update
 - [ ] `sklearn/ensemble/_weight_boosting.py` (AdaBoostRegressor)  [#21605](https://github.com/scikit-learn/scikit-learn/pull/21605)
 - [ ] `sklearn/ensemble/_gb.py` (BaseGradientBoosting)  [#21632](https://github.com/scikit-learn/scikit-learn/pull/21632)
-- [ ] `SpectralBiClustering`, `SpectralCoClustering`  [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817)
-- [ ] `linear_model.Ridge`  [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341)
+- [ ] `sklearn/cluster/_bicluster.py` (SpectralBiClustering, SpectralCoClustering)  [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817)
+- [ ] `sklearn/linear_model/_ridge.py`  [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341)
 
 
 
