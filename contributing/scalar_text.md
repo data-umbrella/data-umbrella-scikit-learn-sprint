@@ -46,12 +46,12 @@ Some instructions on adding scalar validation with `check_scalar` on classes
 - [ ] `sklearn/ensemble/_gb.py` (BaseGradientBoosting)  [#21632](https://github.com/scikit-learn/scikit-learn/pull/21632) (@genvalen)
 - [ ] `sklearn/cluster/_bicluster.py` (SpectralBiClustering)  [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817) (@creatornadiran)
 - [ ] `sklearn/cluster/_bicluster.py` (SpectralCoClustering)  [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817) (@creatornadiran)
-- [ ] `sklearn/linear_model/_ridge.py`  (Ridge) [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341) Example by @ArturoAmorQ
-- [ ] `sklearn/linear_model/_ridge.py`  (RidgeCV)      @ArturoAmorQ
-- [ ] `sklearn/linear_model/_coordinate_descent.py` (Lasso) @ArturoAmorQ
-- [ ] `sklearn/linear_model/_coordinate_descent.py` (LassoCV) @ArturoAmorQ
-- [ ] `linear_model/_glm/glm.py` (GeneralizedLinearRegressor) @reshamas
-- [ ] `linear_model/_glm/glm.py` (PoissonRegressor)  @reshamas
-- [ ] `linear_model/_glm/glm.py` (GammaRegressor)  @reshamas
-- [ ] `linear_model/_glm/glm.py` (TweedieRegressor)  @reshamas
+- [ ] `sklearn/linear_model/_ridge.py`  (Ridge) [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341) (@ArturoAmorQ)
+- [ ] `sklearn/linear_model/_ridge.py`  (RidgeCV)      (@ArturoAmorQ)
+- [ ] `sklearn/linear_model/_coordinate_descent.py` (Lasso) (@ArturoAmorQ)
+- [ ] `sklearn/linear_model/_coordinate_descent.py` (LassoCV) (@ArturoAmorQ)
+- [ ] `linear_model/_glm/glm.py` (GeneralizedLinearRegressor) (@reshamas)
+- [ ] `linear_model/_glm/glm.py` (PoissonRegressor)  (@reshamas)
+- [ ] `linear_model/_glm/glm.py` (GammaRegressor)  (@reshamas)
+- [ ] `linear_model/_glm/glm.py` (TweedieRegressor)  (@reshamas)
 
