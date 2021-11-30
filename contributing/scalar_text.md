@@ -35,7 +35,6 @@ Some instructions on adding scalar validation with `check_scalar` on classes
 - [ ] `sklearn/linear_model/_ridge.py`  [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341) (@ArturoAmorQ)
 
 ## Classes Updated
-- [x] `sklearn/ensemble/_weight_boosting.py`
 - [x] `sklearn/neighbors/_nca.py`
 - [x] `sklearn/decomposition/_pca.py`
 - [x] `sklearn/feature_extraction/text.py`    [#20752](https://github.com/scikit-learn/scikit-learn/pull/20752) (@AlekLefebvre)
