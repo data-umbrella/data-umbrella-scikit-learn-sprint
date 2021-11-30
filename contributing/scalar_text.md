@@ -35,11 +35,13 @@ Some instructions on adding scalar validation with `check_scalar` on classes
 - [x] `sklearn/ensemble/_weight_boosting.py`
 - [x] `sklearn/neighbors/_nca.py`
 - [x] `sklearn/decomposition/_pca.py`
-- [x] `sklearn/feature_extraction/text.py`
+- [x] `sklearn/feature_extraction/text.py`    [#20752](https://github.com/scikit-learn/scikit-learn/pull/20752) (@AlekLefebvre)
 - [x] `sklearn/preprocessing/_discretization.py`
 - [x] `sklearn/cluster/_affinity_propagation.py`  [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723) (@glemaitre)
 - [x] `sklearn/cluster/_birch.py`  [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816) (@SanjayMarreddi)
 - [x] `sklearn/cluster/_dbscan.py`  [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816) (@SanjayMarreddi)
+- [x] `sklearn/ensemble/_weight_boosting.py` (AdaBoostClassifier)  [#21605](https://github.com/scikit-learn/scikit-learn/pull/21605) (@genvalen)
+
 
 ## Classes to Update
 - [ ] `sklearn/ensemble/_weight_boosting.py` (AdaBoostRegressor)  [#21605](https://github.com/scikit-learn/scikit-learn/pull/21605) (@genvalen)
