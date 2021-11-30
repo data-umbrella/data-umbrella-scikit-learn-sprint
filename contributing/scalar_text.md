@@ -37,7 +37,6 @@ Feel free to ping us if you need help.
 - [x] `sklearn/feature_extraction/text.py`
 - [x] `sklearn/preprocessing/_discretization.py`
 - [x] `AffinityPropagation` [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723) Example by @glemaitre
-- [x] `AdaBoostClassifer` [#21442](https://github.com/scikit-learn/scikit-learn/pull/21422)
 - [x] `sklearn/cluster/_birch.py` [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
 - [x] `sklearn/cluster/_dbscan.py` [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
 
