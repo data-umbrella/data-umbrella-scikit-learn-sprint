@@ -32,9 +32,9 @@ Feel free to ping us if you need help.
 
 ## Examples for Reference
 - [x] `sklearn/cluster/_affinity_propagation.py`  [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723) Example by @glemaitre
-- [x] `sklearn/linear_model/_ridge.py`  [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341) Example by @ArturoAmorQ
+- [ ] `sklearn/linear_model/_ridge.py`  [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341) Example by @ArturoAmorQ
 
-## Functions Updated
+## Classes Updated
 - [x] `sklearn/ensemble/_weight_boosting.py`
 - [x] `sklearn/neighbors/_nca.py`
 - [x] `sklearn/decomposition/_pca.py`
@@ -44,11 +44,12 @@ Feel free to ping us if you need help.
 - [x] `sklearn/cluster/_birch.py`  [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
 - [x] `sklearn/cluster/_dbscan.py`  [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
 
-## Functions to Update
+## Classes to Update
 - [ ] `sklearn/ensemble/_weight_boosting.py` (AdaBoostRegressor)  [#21605](https://github.com/scikit-learn/scikit-learn/pull/21605)
 - [ ] `sklearn/ensemble/_gb.py` (BaseGradientBoosting)  [#21632](https://github.com/scikit-learn/scikit-learn/pull/21632)
 - [ ] `sklearn/cluster/_bicluster.py` (SpectralBiClustering, SpectralCoClustering)  [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817)
-- [ ] `sklearn/linear_model/_ridge.py`  [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341) Example by @ArturoAmorQ
-
-
+- [ ] `sklearn/linear_model/_ridge.py`  (Ridge) [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341) Example by @ArturoAmorQ
+- [ ] `sklearn/linear_model/_ridge.py`  (RidgeCV)      @ArturoAmorQ
+- [ ] `sklearn/linear_model/_coordinate_descent.py` (Lasso) @ArturoAmorQ
+- [ ] `sklearn/linear_model/_coordinate_descent.py` (LassoCV) @ArturoAmorQ
 
