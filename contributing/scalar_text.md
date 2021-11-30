@@ -1,5 +1,5 @@
 ## Issue Title
-Use check_scalar for parameters validation
+Use the function `check_scalar` for parameters validation. 
 
 ## Issue Type
 This is an **intermediate-level** issue for second time contributors.
@@ -10,6 +10,11 @@ References [#20724](https://github.com/scikit-learn/scikit-learn/issues/20724)
 
 A helper function exists in scikit-learn which validates a scalar value:  
 https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html
+
+Currently,.... inconsistent error messages, 
+
+The function `check_scalar` is defined in [`scikit-learn/sklearn/utils/validation.py`](https://github.com/scikit-learn/scikit-learn/blob/6077d52b706d118c0d9fb1e69c254bc67e15b078/sklearn/utils/validation.py)
+
 
 Utilizing this helper function will help to get consistent error types and messages.
 
@@ -30,6 +35,14 @@ Feel free to ping us if you need help.
 - [ ] `AdaBoostRegressor` [#21605](https://github.com/scikit-learn/scikit-learn/pull/21605)
 - [x] `AffinityPropagation` [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723) Example by @glemaitre
 - [ ] `BaseGradientBoosting` [#21632](https://github.com/scikit-learn/scikit-learn/pull/21632)
-- [x] `birch`, `dbscan` [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
+- [x] `sklearn/cluster/_birch.py` [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
+- [x] `sklearn/cluster/_dbscan.py` [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
 - [x] `SpectralBiClustering`, `SpectralCoClustering` [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817)
 - [ ] `linear_model.Ridge`[#21341](https://github.com/scikit-learn/scikit-learn/pull/21341)
+- [x] `sklearn/ensemble/_weight_boosting.py`
+- [x] `sklearn/neighbors/_nca.py`
+- [x] `sklearn/decomposition/_pca.py`
+- [x] `sklearn/feature_extraction/text.py`
+- [x] `sklearn/preprocessing/_discretization.py`
+
+
