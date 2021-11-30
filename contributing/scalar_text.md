@@ -26,9 +26,6 @@ Some instructions on adding scalar validation with `check_scalar` on classes
 1. **Inspect if any of the associated class attributes aren't checked with `check_scalar`**, you can search in the file text for the attributes. For instance [associated attributes of `dampling`, `max_iter`, and `convergence_iter` in `AffinityPropagation` were not validated](https://github.com/scikit-learn/scikit-learn/pull/20723/files#diff-62083de22888eadb572404f8f7255a19a74370eeaf2a893858b066d90ada979eL458).
 1. **Add tests on the class interfaces to assert behavior when wrong values are provided**, those test _must_ fail before adding validation. For instance [@glemaitre added a parametrised test for those parameters](https://github.com/scikit-learn/scikit-learn/pull/20723/files#diff-35c6902baaa6b79819df8746c45a68f5d9057003fcd4189ac1d44213ac1eced2R76-R95).
 1. **Add `check_scalar` calls where needed**. Generally, this is not done in the constructor but rather just before calling the core of the method. For instance, in the case of #20723, [@glemaitre added `check_scalar` calls just before the call to `affinity_propagation` which is the core of the method.](https://github.com/scikit-learn/scikit-learn/pull/20723/files#diff-62083de22888eadb572404f8f7255a19a74370eeaf2a893858b066d90ada979eR460-R475)
-1. **Repeat this process for each new class**, you can have a look at @ArturoAmorQ's PR linked just above: #21341
-
-Feel free to ping us if you need help.
 
 ## Examples for Reference
 - [x] `sklearn/cluster/_affinity_propagation.py`  [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723) Example by @glemaitre
@@ -40,16 +37,21 @@ Feel free to ping us if you need help.
 - [x] `sklearn/decomposition/_pca.py`
 - [x] `sklearn/feature_extraction/text.py`
 - [x] `sklearn/preprocessing/_discretization.py`
-- [x] `sklearn/cluster/_affinity_propagation.py`  [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723) Example by @glemaitre
-- [x] `sklearn/cluster/_birch.py`  [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
-- [x] `sklearn/cluster/_dbscan.py`  [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816)
+- [x] `sklearn/cluster/_affinity_propagation.py`  [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723) (@glemaitre)
+- [x] `sklearn/cluster/_birch.py`  [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816) (@SanjayMarreddi)
+- [x] `sklearn/cluster/_dbscan.py`  [#20816](https://github.com/scikit-learn/scikit-learn/pull/20816) (@SanjayMarreddi)
 
 ## Classes to Update
-- [ ] `sklearn/ensemble/_weight_boosting.py` (AdaBoostRegressor)  [#21605](https://github.com/scikit-learn/scikit-learn/pull/21605)
-- [ ] `sklearn/ensemble/_gb.py` (BaseGradientBoosting)  [#21632](https://github.com/scikit-learn/scikit-learn/pull/21632)
-- [ ] `sklearn/cluster/_bicluster.py` (SpectralBiClustering, SpectralCoClustering)  [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817)
+- [ ] `sklearn/ensemble/_weight_boosting.py` (AdaBoostRegressor)  [#21605](https://github.com/scikit-learn/scikit-learn/pull/21605) (@genvalen)
+- [ ] `sklearn/ensemble/_gb.py` (BaseGradientBoosting)  [#21632](https://github.com/scikit-learn/scikit-learn/pull/21632) (@genvalen)
+- [ ] `sklearn/cluster/_bicluster.py` (SpectralBiClustering)  [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817) (@creatornadiran)
+- [ ] `sklearn/cluster/_bicluster.py` (SpectralCoClustering)  [#20817](https://github.com/scikit-learn/scikit-learn/pull/20817) (@creatornadiran)
 - [ ] `sklearn/linear_model/_ridge.py`  (Ridge) [#21341](https://github.com/scikit-learn/scikit-learn/pull/21341) Example by @ArturoAmorQ
 - [ ] `sklearn/linear_model/_ridge.py`  (RidgeCV)      @ArturoAmorQ
 - [ ] `sklearn/linear_model/_coordinate_descent.py` (Lasso) @ArturoAmorQ
 - [ ] `sklearn/linear_model/_coordinate_descent.py` (LassoCV) @ArturoAmorQ
+- [ ] `linear_model/_glm/glm.py` (GeneralizedLinearRegressor) @reshamas
+- [ ] `linear_model/_glm/glm.py` (PoissonRegressor)  @reshamas
+- [ ] `linear_model/_glm/glm.py` (GammaRegressor)  @reshamas
+- [ ] `linear_model/_glm/glm.py` (TweedieRegressor)  @reshamas
 
