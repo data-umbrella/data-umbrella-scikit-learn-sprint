@@ -6,7 +6,9 @@ This is an **intermediate-level** issue for second time contributors. This requi
 - You have already set up your working virtual environment.
 - You have submitted at least one other pull request to this library.
 - Experience using [`pytest`](https://docs.pytest.org/en/6.2.x/).
-- It is helpful to be familiar with the acceptable range of values (minimum and maximum) for the estimator you are working on. If you are not familiar with an estimator, you can reference other sources outside of scikit-learn documentation to get that information. 
+- To find the range of possible for values for an estimator, that information might be available if some validation code has already been written in the scikit-learn library.
+- Sometimes validation code is not available in the scikit-learn library.  It is helpful to be familiar with the acceptable range of values (minimum and maximum) for the arguments for the estimator you are working on. If you are not familiar with an estimator, you can reference other sources outside of scikit-learn documentation to get that information. 
+- Note: within an estimator there may be multiple scalar arguments. (For one estimator, validation for multiple arguments should be submitted in one pull request.)
 
 ## Background / Objective
 
