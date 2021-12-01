@@ -1,26 +1,30 @@
 ## Issue Title
 Use the function `check_scalar` for parameters validation. 
 
-## Issue Type
-This is an **intermediate-level** issue for second time contributors.
+## Prerequisites
+This is an **intermediate-level** issue for second time contributors. This requires the following experience:
+- You have already set up your working virtual environment.
+- You have submitted at least one other pull request to this library.
+- Experience using [`pytest`](https://docs.pytest.org/en/6.2.x/).
+- It is helpful to be familiar with the acceptable range of values (minimum and maximum) for the estimator you are working on. If you are not familiar with an estimator, you can reference other sources outside of scikit-learn documentation to get that information. 
 
 ## Background / Objective
 
 References [#20724](https://github.com/scikit-learn/scikit-learn/issues/20724)
 
 A helper function exists in scikit-learn which validates a scalar value, [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html)
-was created by scikit-learn.  Used to validate arguments.
-We want to refactor using this helper function.
+It is used to validate parameters of classes (? and functions). Most of the current classes in scikit-learn do not use this helper function.  We want to refactor the code so that it does use this standard helper function. Utilizing this helper function will help to get consistent error types and messages.
 
-Currently,.... inconsistent error messages, 
+If there is a scalar argument that isn't being checked, we want to check it, or validate it using the `check_scalar` function.  In some cases it is currently being checked, but it is not using the `check_scalar` function.  For that change, we refactor the code.  (Refactoring means making changes to the code that result in the same output as before.)
 
 The function `check_scalar` is defined in [`scikit-learn/sklearn/utils/validation.py`](https://github.com/scikit-learn/scikit-learn/blob/6077d52b706d118c0d9fb1e69c254bc67e15b078/sklearn/utils/validation.py)
 
 
-Utilizing this helper function will help to get consistent error types and messages.
-
 ## Steps
-- [ ] Find a class with constuctors that have scalar numeric as parameters
+- [ ] Find a class with constuctors that have scalar numeric as parameters. There are some listed below in the "Classes to Update" section. 
+- [ ] Make sure you have created a separate branch from `main` before editing files for your new contribution. Refer to our [contributing guidelines](https://scikit-learn.org/dev/developers/contributing.html#how-to-contribute) for more information.
+- [ ] Work on one estimator at a time and submit each in a separate pull request. 
+- [ ] The pull request can be named:  "MNT Use check_scalar in: [EstimatorName]"
 - [ ] Check scalar parameters with helper function
 - [ ] Add tests
 
