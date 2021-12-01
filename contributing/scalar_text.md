@@ -9,6 +9,8 @@ This is an **intermediate-level** issue for second time contributors.
 References [#20724](https://github.com/scikit-learn/scikit-learn/issues/20724)
 
 A helper function exists in scikit-learn which validates a scalar value, [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html)
+was created by scikit-learn.  Used to validate arguments.
+We want to refactor using this helper function.
 
 Currently,.... inconsistent error messages, 
 
