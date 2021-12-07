@@ -1,6 +1,20 @@
 ## Issue Title
 Use the function [`check_scalar`](https://scikit-learn.org/dev/modules/generated/sklearn.utils.check_scalar.html?highlight=check_scalar#sklearn.utils.check_scalar) for parameters validation. 
 
+## Background / Objective
+
+Use the function [`check_scalar`](https://scikit-learn.org/dev/modules/generated/sklearn.utils.check_scalar.html?highlight=check_scalar#sklearn.utils.check_scalar) for parameters validation. The validation functions checks to see if the parameter: is an acceptable data type, is within the range of values, and indicates which of the minimum and maximum values are required.
+
+References [#20724](https://github.com/scikit-learn/scikit-learn/issues/20724): "Use check_scalar for parameters validation"
+
+A helper function exists in scikit-learn which validates a scalar value, [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html)
+It is used to validate parameters of classes (? and functions). Most of the current classes in scikit-learn do not use this helper function.  We want to refactor the code so that it does use this standard helper function. Utilizing this helper function will help to get consistent error types and messages.
+
+If there is a scalar argument that isn't being checked, we want to check it, or validate it using the `check_scalar` function.  In some cases it is currently being checked, but it is not using the `check_scalar` function.  For that change, we refactor the code.  (Refactoring means making changes to the code that result in the same output as before.)
+
+The function `check_scalar` is defined in [`scikit-learn/sklearn/utils/validation.py`](https://github.com/scikit-learn/scikit-learn/blob/6077d52b706d118c0d9fb1e69c254bc67e15b078/sklearn/utils/validation.py)
+
+
 ## Prerequisites
 This is an **intermediate-level** issue for second time contributors. This requires the following experience:
 - You have already set up your working virtual environment.
@@ -10,16 +24,6 @@ This is an **intermediate-level** issue for second time contributors. This requi
 - Sometimes validation code is not available in the scikit-learn library.  It is helpful to be familiar with the acceptable range of values (minimum and maximum) for the arguments for the estimator you are working on. If you are not familiar with an estimator, you can reference other sources outside of scikit-learn documentation to get that information. 
 - Note: within an estimator there may be multiple scalar arguments. (For one estimator, validation for multiple arguments should be submitted in one pull request.)
 
-## Background / Objective
-
-References [#20724](https://github.com/scikit-learn/scikit-learn/issues/20724)
-
-A helper function exists in scikit-learn which validates a scalar value, [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html)
-It is used to validate parameters of classes (? and functions). Most of the current classes in scikit-learn do not use this helper function.  We want to refactor the code so that it does use this standard helper function. Utilizing this helper function will help to get consistent error types and messages.
-
-If there is a scalar argument that isn't being checked, we want to check it, or validate it using the `check_scalar` function.  In some cases it is currently being checked, but it is not using the `check_scalar` function.  For that change, we refactor the code.  (Refactoring means making changes to the code that result in the same output as before.)
-
-The function `check_scalar` is defined in [`scikit-learn/sklearn/utils/validation.py`](https://github.com/scikit-learn/scikit-learn/blob/6077d52b706d118c0d9fb1e69c254bc67e15b078/sklearn/utils/validation.py)
 
 
 ## Steps
