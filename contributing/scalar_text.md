@@ -1,5 +1,5 @@
 ## Issue Title
-Use the function `check_scalar` for parameters validation. 
+Use the function [`check_scalar`](https://scikit-learn.org/dev/modules/generated/sklearn.utils.check_scalar.html?highlight=check_scalar#sklearn.utils.check_scalar) for parameters validation. 
 
 ## Prerequisites
 This is an **intermediate-level** issue for second time contributors. This requires the following experience:
