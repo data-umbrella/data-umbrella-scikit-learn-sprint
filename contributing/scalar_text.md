@@ -3,7 +3,7 @@ Use the function [`check_scalar`](https://scikit-learn.org/dev/modules/generated
 
 ## Background / Objective
 
-Use the function [`check_scalar`](https://scikit-learn.org/dev/modules/generated/sklearn.utils.check_scalar.html?highlight=check_scalar#sklearn.utils.check_scalar) for parameters validation. The validation functions checks to see the following for a parameter: is an acceptable data type, is within the range of values, and indicates which of the minimum and maximum values are required.
+Use the function [`check_scalar`](https://scikit-learn.org/dev/modules/generated/sklearn.utils.check_scalar.html?highlight=check_scalar#sklearn.utils.check_scalar) for parameters validation. The validation function checks to see the following for a parameter: is an acceptable data type, is within the range of values, and indicates which of the minimum and maximum values are required.
 
 References [#20724](https://github.com/scikit-learn/scikit-learn/issues/20724): "Use check_scalar for parameters validation"
 
