@@ -7,7 +7,7 @@ Use the function [`check_scalar`](https://scikit-learn.org/dev/modules/generated
 
 References [#20724](https://github.com/scikit-learn/scikit-learn/issues/20724): "Use check_scalar for parameters validation"
 
-A helper function exists in scikit-learn which validates a scalar value, [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html)
+A helper function exists in scikit-learn which validates a scalar value: `sklearn.utils.check_scalar` [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html). 
 It is used to validate parameters of classes (? and functions). Most of the current classes in scikit-learn do not use this helper function.  We want to refactor the code so that it does use this standard helper function. Utilizing this helper function will help to get consistent error types and messages.
 
 If there is a scalar argument that isn't being checked, we want to check it, or validate it using the `check_scalar` function.  In some cases it is currently being checked, but it is not using the `check_scalar` function.  For that change, we refactor the code.  (Refactoring means making changes to the code that result in the same output as before.)
