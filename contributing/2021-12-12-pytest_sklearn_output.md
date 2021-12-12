@@ -2,6 +2,8 @@
 
 It takes about 20 minutes to run the full suite of tests in sklearn with `pytest sklearn`.  
 
+Note that this test failed:  `sklearn/tests/test_build.py`  
+
 ```bash
 (sklearndev) 
 ~/software-build/scikit-learn  xscalar_glm ✔                                                             1d  
