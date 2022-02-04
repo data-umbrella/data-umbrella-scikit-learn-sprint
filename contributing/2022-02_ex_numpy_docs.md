@@ -21,6 +21,6 @@ Usual:
 ### Working on issue
 1. Pick a function: `sklearn.metrics.pairwise.paired_distances`  
 https://github.com/scikit-learn/scikit-learn/pull/21440
-1. Comment out function here:  `scikit-learn/sklearn/tests/test_docstrings.py`
+1. Comment out function `#"sklearn.metrics.pairwise.paired_distances",` in this file here:  `scikit-learn/sklearn/tests/test_docstrings.py`
 2. 
 3. 
