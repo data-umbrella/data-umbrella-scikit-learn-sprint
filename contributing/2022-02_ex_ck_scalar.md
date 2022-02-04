@@ -1,4 +1,7 @@
-## Example: Notes on NumPy Docs Validation
+## Example: Check Scalar Function
+
+### Blog
+https://blog.dataumbrella.org/example-of-check-scalar-function-contribution-in-scikit-learn
 
 ### Getting Started
 Usual:  
@@ -12,8 +15,9 @@ Usual:
 
 Go into this file:https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/glm.py
 
-There are 4 classes in this file.I will work on this one:  class GeneralizedLinearRegressor(RegressorMixin, BaseEstimator):
-Find associated test file for this class:In this case, it is this file:https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/tests/test_glm.py
+There are 4 classes in this file. 
+I will work on this one:  class GeneralizedLinearRegressor(RegressorMixin, BaseEstimator):  
+Find associated test file for this class: In this case, it is this file:https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/tests/test_glm.py
 
 I did find a test for `max_iter` argument
 @pytest.mark.parametrize("max_iter", ["not a number", 0, -1, 5.5, [1]])def test_glm_max_iter_argument(max_iter): """Test GLM for invalid max_iter argument.""" y = np.array([1, 2]) X = np.array([[1], [2]]) glm = GeneralizedLinearRegressor(max_iter=max_iter) with pytest.raises(ValueError, match="must be a positive integer"): glm.fit(X, y)Next, I am going to run the test for this: Example:  pytest sklearn/cluster/tests/test_affinity_propagation.py::test_affinity_propagation_params_validation
@@ -25,7 +29,7 @@ In this case, I ran the tests and all 5 passed.
 Next, I go back to python file with class of interest:https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/glm.py
 
 
-Validation should be within the def fit function.
+Validation should be within the `def fit` function.
 
 import library at top:from ...utils import check_scalar
 
