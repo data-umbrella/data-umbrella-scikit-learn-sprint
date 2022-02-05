@@ -66,6 +66,11 @@ I see this on line 227
     ],
  ```
  
+ #### alpha
+ ```python
+ Values must be in the range `[0.0, inf)`.
+ ```
+ 
 
 
 I did find a test for `max_iter` argument  
