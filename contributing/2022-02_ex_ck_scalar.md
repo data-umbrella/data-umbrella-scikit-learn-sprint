@@ -25,19 +25,21 @@ Go into this file: https://github.com/scikit-learn/scikit-learn/blob/main/sklear
 - I will work on, line 77:  `class BaseSGD(SparseCoefMixin, BaseEstimator, metaclass=ABCMeta):`
 - `def fit` is on line 126
 - Find associated test file for this class: [sklearn/linear_model/tests/test_sgd.py](https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/tests/test_sgd.py)
-- These are the scalar parameters:  
-    1. `alpha`
-    2. `l1_ratio`
-    3. `max_iter`
-    4. `tol`
-    5. `verbose`
-    6. `epsilon`
-    7. `random_state`
-    8. `eta0`
-    9. `power_t`
-    10. `validation_fraction`
-    11. `n_iter_no_change`
-    12. `average`
+
+### These are the scalar parameters:  
+1. `alpha`
+2. `l1_ratio`
+3. `max_iter`
+4. `tol`
+5. `verbose`
+6. `epsilon`
+7. `random_state`
+8. `eta0`
+9. `power_t`
+10. `validation_fraction`
+11. `n_iter_no_change`
+12. `average`
+
 
 
 
