@@ -19,7 +19,6 @@ Go into this file: https://github.com/scikit-learn/scikit-learn/blob/main/sklear
 
 ### Files I am working on
 - I added the valid scalar parameter intervals in this pull request: "DOC adding valid intervals for SGDClassifier class parameters" [#22115](https://github.com/scikit-learn/scikit-learn/pull/22115)
-    - file:  `sklearn/linear_model/_stochastic_gradient.py`
 - File with the class: [`sklearn/linear_model/_stochastic_gradient.py`](https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_stochastic_gradient.py)
 - There are 4 classes in this file. 
 - I will work on, line 77:  `class BaseSGD(SparseCoefMixin, BaseEstimator, metaclass=ABCMeta):`
