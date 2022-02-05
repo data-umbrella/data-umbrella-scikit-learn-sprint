@@ -17,9 +17,29 @@ Usual:
 - [Issue #21927](https://github.com/scikit-learn/scikit-learn/issues/21927)
 Go into this file: https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/glm.py
 
-There are 4 classes in this file. 
-I will work on this one:  class GeneralizedLinearRegressor(RegressorMixin, BaseEstimator):  
-Find associated test file for this class: In this case, it is this file: https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/tests/test_glm.py
+### Files I am working on
+- I added the valid scalar parameter intervals in this pull request: https://github.com/scikit-learn/scikit-learn/pull/22115)
+    - file:  `sklearn/linear_model/_stochastic_gradient.py`
+- File with the class: [`sklearn/linear_model/_stochastic_gradient.py`](https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_stochastic_gradient.py)
+- There are 4 classes in this file. 
+- I will work on, line 77:  `class BaseSGD(SparseCoefMixin, BaseEstimator, metaclass=ABCMeta):`
+- `def fit` is on line 126
+- Find associated test file for this class: [sklearn/linear_model/tests/test_sgd.py](https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/tests/test_sgd.py)
+- These are the scalar parameters:  
+    - `alpha`
+    - `l1_ratio`
+    - `max_iter`
+    - `tol`
+    - `verbose`
+    - `epsilon`
+    - `random_state`
+    - `eta0`
+    - `power_t`
+    - `validation_fraction`
+    - `n_iter_no_change`
+    - `average`
+
+
 
 I did find a test for `max_iter` argument  
 ```python
