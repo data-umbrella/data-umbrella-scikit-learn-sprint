@@ -13,8 +13,8 @@ Usual:
 ### References
 - Reshama's pull requests:  https://github.com/scikit-learn/scikit-learn/pulls?q=is%3Apr+author%3Areshamas+is%3Aclosed
 
-### Issue: Ensure that functions's docstrings pass numpydoc validation
-- [Issue #21350](https://github.com/scikit-learn/scikit-learn/issues/21350)
+### Issue: Use the function check_scalar for parameters validation
+- [Issue #21927](https://github.com/scikit-learn/scikit-learn/issues/21927)
 Go into this file: https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/glm.py
 
 There are 4 classes in this file. 
