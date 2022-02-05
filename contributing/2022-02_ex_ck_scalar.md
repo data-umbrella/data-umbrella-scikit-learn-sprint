@@ -10,14 +10,16 @@ Usual:
 3. work from feature branch
 4. Rebuild from source, if needed: `pip install -e . --no-build-isolation -v`
 
+### References
+- Reshama's pull requests:  https://github.com/scikit-learn/scikit-learn/pulls?q=is%3Apr+author%3Areshamas+is%3Aclosed
+
 ### Issue: Ensure that functions's docstrings pass numpydoc validation
 - [Issue #21350](https://github.com/scikit-learn/scikit-learn/issues/21350)
-
-Go into this file:https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/glm.py
+Go into this file: https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/glm.py
 
 There are 4 classes in this file. 
 I will work on this one:  class GeneralizedLinearRegressor(RegressorMixin, BaseEstimator):  
-Find associated test file for this class: In this case, it is this file:https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/tests/test_glm.py
+Find associated test file for this class: In this case, it is this file: https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/tests/test_glm.py
 
 I did find a test for `max_iter` argument  
 ```python
