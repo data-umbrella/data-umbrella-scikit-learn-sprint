@@ -33,3 +33,44 @@ Towards #23462
 LinearRegression uses `_validate_parameters`
 
 ```
+
+### Import statement
+```python
+from ..utils._param_validation import validate_params
+```
+
+
+### `_parameter_constraints` statement
+
+Put `_parameter_constraints` after class docstring and before `def init`.
+
+#### Example 1
+
+```python
+    _parameter_constraints = {
+        **_BaseKMeans._parameter_constraints,
+        "init": [StrOptions({"k-means++", "random"}), callable],
+        "copy_x": [bool],
+        "algorithm": [StrOptions({"lloyd", "elkan"})],
+        "bisecting_strategy": [StrOptions({"biggest_inertia", "largest_cluster"})],
+    }
+```
+
+#### Example 2
+[sklearn/cluster/_kmeans.py](https://github.com/scikit-learn/scikit-learn/blob/5bd39c2b672dae8c9742d43866b81c3afde23c2c/sklearn/cluster/_kmeans.py)
+
+```python
+    _parameter_constraints = {
+        "n_clusters": [Interval(Integral, 1, None, closed="left")],
+        "init": [StrOptions({"k-means++", "random"}), callable, "array-like"],
+        "n_init": [
+            StrOptions({"auto", "warn"}, internal={"warn"}),
+            Interval(Integral, 1, None, closed="left"),
+        ],
+        "max_iter": [Interval(Integral, 1, None, closed="left")],
+        "tol": [Interval(Real, 0, None, closed="left")],
+        "verbose": [Interval(Integral, 0, None, closed="left"), bool],
+        "random_state": ["random_state"],
+    }
+```
+
