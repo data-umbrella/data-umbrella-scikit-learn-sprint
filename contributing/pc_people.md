@@ -1,25 +1,22 @@
-NMF and MiniBatchNMF @jeremiedbb 
-TfidfTransformer   @brandonthchen
-Linear Regression  @BBloggsbott 
-TSNE.perplexity    @Micky774
+- NMF and MiniBatchNMF @jeremiedbb 
+- TfidfTransformer   @brandonthchen
+- Linear Regression  @BBloggsbott 
+- TSNE.perplexity    @Micky774
 
 
 haochunchang 
 
-PCA  (@Nwanna-Joseph)
-DecisionTreeClassifier (@moritzwilksch)
-DecisionTreeRegressor (@moritzwilksch)
-HistGradientBoostingClassifier and Regressor @haochunchang 
-KNN Classifier #23511 (@nymarkkho)
-KNN Regressor #23511 (@nymarkkho)
+- PCA  (@Nwanna-Joseph)
+- DecisionTreeClassifier (@moritzwilksch)
+- DecisionTreeRegressor (@moritzwilksch)
+- HistGradientBoostingClassifier and Regressor @haochunchang 
+- KNN Classifier #23511 (@nymarkkho)
+- KNN Regressor #23511 (@nymarkkho)
 
-perceptron, BaseSGDClassifier, BaseSGD
-DummyClassifier and DummyRegressor
-Nwanna-Joseph 
-MaxAbsScaler, MinMaxScaler and StandardScaler
-rprkh 
-Normalizer
-sec65
+- perceptron, BaseSGDClassifier, BaseSGD
+- DummyClassifier and DummyRegressor  Nwanna-Joseph 
+- MaxAbsScaler, MinMaxScaler and StandardScaler  rprkh 
+- Normalizer sec65
 
 Working on ExtraTreesClassifier, ExtraTreesRegressor, RandomForestClassifier, RandomForestRegressor, RandomTreesEmbedding
 SandroEph
