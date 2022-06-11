@@ -88,6 +88,12 @@ class _BaseKMeans(
     }
 ```
 
+In `def fit`, add in:
+```python
+self._validate_params()
+```
+
+
 #### Example 3
 [sklearn/linear_model/_base.py](https://github.com/scikit-learn/scikit-learn/blob/79c176de3f8a6972fe9e087f612f77bbd2b40ad6/sklearn/linear_model/_base.py)
 
