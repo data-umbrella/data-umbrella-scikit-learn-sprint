@@ -107,4 +107,8 @@ class LinearRegression(MultiOutputMixin, RegressorMixin, LinearModel):
     }
 ```
 
+In `def fit`, add in:
+```python
+self._validate_params()
+```
 
