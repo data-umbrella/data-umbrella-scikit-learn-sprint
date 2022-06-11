@@ -22,7 +22,9 @@ Goal:
 1. Make sure the test passes:  `pytest -vl sklearn/tests/test_common.py -k check_param_validation`
 1. See below for Pull Request description.
 
-PR title:  MAINT LinearRegression uses _validate_parameters
+PR title2:  
+- MAINT LinearRegression uses _validate_parameters
+- [WIP] MNT Use _validate_params in NMF and MiniBatchNMF 
 
 Pull Request Description:  
 ```
