@@ -1,5 +1,6 @@
 ## Notes for `_parameter_constraints`
 
+- List of `ck_scalar` classes:  https://github.com/scikit-learn/scikit-learn/issues/21927
 - Prior ck_scalar PR by Reshama: MAINT Common parameter validation 
    - [21946: MAINT Use check_scalar to validate scalar in: GeneralizedLinearRegressor](https://github.com/scikit-learn/scikit-learn/pull/21946) 
 - Jeremie's PR: [22722 MAINT Common parameter validation](https://github.com/scikit-learn/scikit-learn/pull/22722)
