@@ -42,9 +42,17 @@ from ..utils._param_validation import validate_params
 
 ### `_parameter_constraints` statement
 
-Put `_parameter_constraints` after class docstring and before `def init`.
+Put `_parameter_constraints` after `class` docstring and before `def init`.
 
 #### Example 1
+
+[sklearn/cluster/_kmeans.py](https://github.com/scikit-learn/scikit-learn/blob/5bd39c2b672dae8c9742d43866b81c3afde23c2c/sklearn/cluster/_kmeans.py)
+
+Put `_parameter_constraints` after `class` docstring and before `def init`.
+
+```
+class MiniBatchKMeans(_BaseKMeans):
+```
 
 ```python
     _parameter_constraints = {
@@ -58,6 +66,12 @@ Put `_parameter_constraints` after class docstring and before `def init`.
 
 #### Example 2
 [sklearn/cluster/_kmeans.py](https://github.com/scikit-learn/scikit-learn/blob/5bd39c2b672dae8c9742d43866b81c3afde23c2c/sklearn/cluster/_kmeans.py)
+
+Put `_parameter_constraints` after `class` docstring and before `def init`.
+
+```
+class _BaseKMeans(
+```
 
 ```python
     _parameter_constraints = {
@@ -73,4 +87,24 @@ Put `_parameter_constraints` after class docstring and before `def init`.
         "random_state": ["random_state"],
     }
 ```
+
+#### Example 3
+[sklearn/linear_model/_base.py](https://github.com/scikit-learn/scikit-learn/blob/79c176de3f8a6972fe9e087f612f77bbd2b40ad6/sklearn/linear_model/_base.py)
+
+Put `_parameter_constraints` after `class` docstring and before `def init`.
+
+```python
+class LinearRegression(MultiOutputMixin, RegressorMixin, LinearModel):
+```
+
+```python
+    _parameter_constraints = {
+        "fit_intercept": [bool],
+        "normalize": [StrOptions({"deprecated"}, internal={"deprecated"}), bool],
+        "copy_X": [bool],
+        "n_jobs": [None, Integral],
+        "positive": [bool],
+    }
+```
+
 
