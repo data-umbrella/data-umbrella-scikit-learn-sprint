@@ -125,9 +125,10 @@ self._validate_params()
 
 ## Reshama's Notes
 - scikit-learn build is in this directory:  `/Users/reshamashaikh/software-build/scikit-learn`
-- activate virtual environment:  `conda activate sklearndev`
-- go to feature branch:  `git checkout validate_params_glr`
+- Activate virtual environment:  `conda activate sklearndev`
+- Go to feature branch:  `git checkout validate_params_glr`
+- *Then*, open up VS Code
 - Ref:  [MAINT Use check_scalar to validate scalar in: GeneralizedLinearRegressor #21946](https://github.com/scikit-learn/scikit-learn/pull/21946)
-- Base class for glm is here:  sklearn/linear_model/_glm/glm.py
+- Base class for `glm` is here:  `sklearn/linear_model/_glm/glm.py`   [glm.py](https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/glm.py)
 - 
 
