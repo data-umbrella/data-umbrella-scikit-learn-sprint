@@ -128,5 +128,6 @@ self._validate_params()
 - activate virtual environment:  `conda activate sklearndev`
 - go to feature branch:  `git checkout validate_params_glr`
 - Ref:  [MAINT Use check_scalar to validate scalar in: GeneralizedLinearRegressor #21946](https://github.com/scikit-learn/scikit-learn/pull/21946)
+- Base class for glm is here:  sklearn/linear_model/_glm/glm.py
 - 
 
