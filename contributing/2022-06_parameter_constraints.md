@@ -132,3 +132,13 @@ self._validate_params()
 - Base class for `glm` is here:  `sklearn/linear_model/_glm/glm.py`   [glm.py](https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/glm.py)
 - 
 
+Pull Request Description:  
+```
+### References
+Towards #23462
+
+### Description
+- Base class:  `GeneralizedLinearRegression` uses `_validate_parameters`
+- Family of estimators:  `PoissonRegressor`, `TweedieRegressor` and `GammaRegressor`
+
+```
