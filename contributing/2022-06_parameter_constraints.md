@@ -124,13 +124,21 @@ self._validate_params()
 ---
 
 ## Reshama's Notes
+
+#### Set-up
 - scikit-learn build is in this directory:  `/Users/reshamashaikh/software-build/scikit-learn`
 - Activate virtual environment:  `conda activate sklearndev`
 - Go to feature branch:  `git checkout validate_params_glr`
 - *Then*, open up VS Code
+
+### Validating Params
 - Ref:  [MAINT Use check_scalar to validate scalar in: GeneralizedLinearRegressor #21946](https://github.com/scikit-learn/scikit-learn/pull/21946)
 - Base class for `glm` is here:  `sklearn/linear_model/_glm/glm.py`   [glm.py](https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/glm.py)
 - Identify the valid "types" and "values" first.  You can do a PR first for this.  I did it here:  [DOC added intervals for scalar parameters for 4 glm classes](https://github.com/scikit-learn/scikit-learn/pull/22076)
+- Step 1:  do import statement:  `from ...utils._param_validation import validate_params`
+- Step 2:  Put `@validate_params` after the imports AND before the `class` statement
+- xxx
+
 
 Pull Request Description:  
 ```
