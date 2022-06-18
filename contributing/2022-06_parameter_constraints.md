@@ -141,7 +141,8 @@ self._validate_params()
 - Step 1:  do import statement:  `from ...utils._param_validation import validate_params`
 - Step 2:  Put `@validate_params` after the imports AND before the `class` statement
 - xxx
-- "Tests that checks error messages from simple param validation can also be removed (carefully: we need to keep the tests checking for more complex param validation !)":  `sklearn/tests/test_common.py`
+- "Tests that checks error messages from simple param validation can also be removed (carefully: we need to keep the tests checking for more complex param validation !)"; 
+    - Test:  `/Users/reshamashaikh/software-build/scikit-learn/sklearn/linear_model/_glm/tests/test_glm.py`
 
 Pull Request Description:  
 ```
