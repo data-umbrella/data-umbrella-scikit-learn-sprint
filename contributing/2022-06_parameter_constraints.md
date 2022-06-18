@@ -145,10 +145,14 @@ self._validate_params()
 
 Pull Request Description:  
 ```
+PR Title:
+MAINT GeneralizedLinearRegression uses _validate_parameters (`PoissonRegressor`, `TweedieRegressor` and `GammaRegressor`)
+
 ### References
 Towards #23462
 
 ### Description
+- File:  `sklearn/linear_model/_glm/glm.py`
 - Base class:  `GeneralizedLinearRegression` uses `_validate_parameters`
 - Family of estimators:  `PoissonRegressor`, `TweedieRegressor` and `GammaRegressor`
 
