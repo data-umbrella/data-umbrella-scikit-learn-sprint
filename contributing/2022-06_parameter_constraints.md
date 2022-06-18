@@ -121,3 +121,12 @@ In `def fit`, add in:
 self._validate_params()
 ```
 
+---
+
+## Reshama's Notes
+- scikit-learn build is in this directory:  `/Users/reshamashaikh/software-build/scikit-learn`
+- activate virtual environment:  `conda activate sklearndev`
+- go to feature branch:  `git checkout validate_params_glr`
+- Ref:  [MAINT Use check_scalar to validate scalar in: GeneralizedLinearRegressor #21946](https://github.com/scikit-learn/scikit-learn/pull/21946)
+- 
+
