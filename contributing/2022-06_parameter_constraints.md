@@ -130,7 +130,7 @@ self._validate_params()
 - *Then*, open up VS Code
 - Ref:  [MAINT Use check_scalar to validate scalar in: GeneralizedLinearRegressor #21946](https://github.com/scikit-learn/scikit-learn/pull/21946)
 - Base class for `glm` is here:  `sklearn/linear_model/_glm/glm.py`   [glm.py](https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/linear_model/_glm/glm.py)
-- 
+- Identify the valid "types" and "values" first.  You can do a PR first for this.  I did it here:  [DOC added intervals for scalar parameters for 4 glm classes](https://github.com/scikit-learn/scikit-learn/pull/22076)
 
 Pull Request Description:  
 ```
