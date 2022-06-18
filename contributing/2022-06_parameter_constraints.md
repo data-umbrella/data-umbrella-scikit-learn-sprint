@@ -125,6 +125,9 @@ self._validate_params()
 
 ## Reshama's Notes
 
+### Reference
+- [sklearn/utils/_param_validation.py](https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/utils/_param_validation.py)
+
 #### Set-up
 - scikit-learn build is in this directory:  `/Users/reshamashaikh/software-build/scikit-learn`
 - Activate virtual environment:  `conda activate sklearndev`
